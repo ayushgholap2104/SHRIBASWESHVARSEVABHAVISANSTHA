@@ -1,6 +1,7 @@
 *{
   padding: 0;
   margin: 0;
+  font-family: sans-serif;
 }
 :root{
   --head_textcolor:#333;
@@ -12,7 +13,7 @@ body{
   --head_bgcolor:#cad8db59;
 }
 .head{
-  padding: 1rem;
+  padding: 2rem;
   color:var(--head_textcolor);
   background-color: var(--head_bgcolor);
 }

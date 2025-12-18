@@ -2,3 +2,17 @@
   padding: 0;
   margin: 0;
 }
+:root{
+  --head_textcolor:#333;
+  --head_bgcolor:#cad8db59;
+
+}
+body{
+  --head_textcolor:#333;
+  --head_bgcolor:#cad8db59;
+}
+.head{
+  padding: 1rem;
+  color:var(--head_textcolor);
+  background-color: var(--head_bgcolor);
+}

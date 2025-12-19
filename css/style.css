@@ -17,3 +17,19 @@ body{
   color:var(--head_textcolor);
   background-color: var(--head_bgcolor);
 }
+.sidebar{
+  font-size: 30px;
+  width: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition:all 0.2s ease;
+}
+.sidebar:hover{
+  cursor: pointer;
+  opacity: 0.9;
+  scale: 0.95;
+  border: 1px solid var(--head_textcolor);
+}

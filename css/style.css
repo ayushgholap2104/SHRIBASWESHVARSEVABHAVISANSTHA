@@ -1,7 +1,7 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: 'Nunito sans';
+  font-family: 'Nunito Sans';
   box-sizing: border-box;
 }
 :root{
@@ -14,7 +14,7 @@ body{
   --head_bgcolor:#cad8db59;
 }
 .head{
-  padding: 0.8rem ;
+  padding: 0.4rem ;
   color:var(--head_textcolor);
   background-color: var(--head_bgcolor);
   align-items: center;
@@ -40,7 +40,7 @@ body{
   border-radius: 5px;
   border: 1px solid transparent;
   padding: 0.1rem 0.4rem;
-  transition:all 0.2s ease;
+  transition:all 0.3s ease;
 }
 .sidebar i:hover{
   cursor: pointer;
@@ -49,13 +49,16 @@ body{
   border: 1px solid var(--head_textcolor);
 }
 .logo{
-  height: 75px;
-  width: 75px;
+  height: 85px;
+  width: 85px;
 }
 .logo img{
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+.logo:hover{
+  cursor: pointer;
 }
 .head_cont2{
   display: flex;
@@ -63,15 +66,41 @@ body{
   align-items: center;
   justify-content: center;
 }
+.home_page{
+  display: flex;
+  gap: 5px;
+}
+.home_page i{
+  font-size: 20px;
+}
 .home_page a{
   text-decoration: none;
   color: var(--head_textcolor);
   font-weight: 800;
 }
+.home_page:after{
+  content: '';
+  bottom: 0;
+  left: 0;
+}
+.about{
+  display: flex;
+  gap: 5px;
+}
+.about_page i{
+  font-size: 21px;
+}
 .about_page a{
   text-decoration: none;
   color: var(--head_textcolor);
   font-weight: 800;
+}
+.contact_page{
+  display: flex;
+  gap: 5px;
+}
+.contact_page i{
+  font-size: 21px;
 }
 .contact_page a{
   text-decoration: none;
@@ -79,5 +108,8 @@ body{
   font-weight: 800;
 }
 .black-white_icon{
-  font-size: 30px;
+  font-size: 25px;
+}
+.black-white_icon:hover{
+  cursor: pointer;
 }

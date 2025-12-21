@@ -74,32 +74,46 @@ body{
 .home_page{
   display: flex;
   gap: 5px;
+  position: relative;
 }
 .home_page i{
   font-size: 20px;
 }
-.home_page a{
-  position: relative;
-  transition: all 3s ease;
-}
-.home_page a::after{
+.home_page::after{
   content: "";
-  bottom: -9px;
+  bottom: -7px;
   left: 0;
-  height: 8px;
+  height: 3px;
   background-color: var(--head_textcolor);
   position: absolute;
   width: 0;
+  border-radius: 5px;
+  transition: width 0.4s ease-in;
 }
-.home_page a:hover{
-  width: 100%;
+.home_page:hover::after{
+  width: 105%;
 }
-.about{
+.about_page{
   display: flex;
   gap: 5px;
+  position: relative;
 }
 .about_page i{
   font-size: 21px;
+}
+.about_page::after{
+  content: "";
+  bottom: -7px;
+  left: 0;
+  height: 3px;
+  background-color: var(--head_textcolor);
+  position: absolute;
+  width: 0;
+  border-radius: 5px;
+  transition: width 0.4s ease-in;
+}
+.about_page:hover::after{
+  width: 105%;
 }
 .about_page a{
   text-decoration: none;
@@ -109,9 +123,24 @@ body{
 .contact_page{
   display: flex;
   gap: 5px;
+  position: relative;
 }
 .contact_page i{
   font-size: 21px;
+}
+.contact_page::after{
+  content: "";
+  bottom: -7px;
+  left: 0;
+  height: 3px;
+  background-color: var(--head_textcolor);
+  position: absolute;
+  width: 0;
+  border-radius: 5px;
+  transition: width 0.4s ease-in;
+}
+.contact_page:hover::after{
+  width: 105%;
 }
 .contact_page a{
   text-decoration: none;

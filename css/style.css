@@ -24,7 +24,7 @@ body{
   padding-right: 4rem;
 }
 .head .sidebar{
-  font-size: 30px;
+  font-size: 25px;
   /* display: flex; */
   justify-content: center;
   display: none;
@@ -33,19 +33,21 @@ body{
 .head .sidebar i{
   border-radius: 5px;
   border: 1px solid transparent;
-  padding: 0.1rem 0.4rem;
+  padding: 0.3rem 0.6rem;
   transition:all 0.3s ease;
 }
 .head .sidebar i:hover{
   cursor: pointer;
   opacity: 0.8;
   scale: 0.95;
-  border: 1px solid var(--head_textcolor);
 }
 .head .logo{
   height: 80px;
   width: 80px;
   margin-left: 60px;
+}
+.head .logo:hover{
+  cursor: pointer;
 }
 .head .logo img{
   height: 100%;

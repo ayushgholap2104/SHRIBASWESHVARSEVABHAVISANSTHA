@@ -14,7 +14,7 @@ body{
   --head_bgcolor:#cad8db59;
 }
 .head{
-  padding: 0.4rem ;
+  padding: 0.3rem;
   color:var(--head_textcolor);
   background-color: var(--head_bgcolor);
   align-items: center;
@@ -23,35 +23,31 @@ body{
   justify-content: space-between;
   padding-right: 4rem;
 }
-.head .head_cont1{
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-  margin-left: 2rem;
-}
-.head_cont1 .sidebar{
+.head .sidebar{
   font-size: 30px;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
+  display: none;
   align-items: center;
 }
-.head_cont1 .sidebar i{
+.head .sidebar i{
   border-radius: 5px;
   border: 1px solid transparent;
   padding: 0.1rem 0.4rem;
   transition:all 0.3s ease;
 }
-.head_cont1 .sidebar i:hover{
+.head .sidebar i:hover{
   cursor: pointer;
   opacity: 0.8;
   scale: 0.95;
   border: 1px solid var(--head_textcolor);
 }
-.head_cont1 .logo{
-  height: 85px;
-  width: 85px;
+.head .logo{
+  height: 80px;
+  width: 80px;
+  margin-left: 60px;
 }
-.head_cont1 .logo img{
+.head .logo img{
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -68,7 +64,8 @@ body{
 .head .head_cont2 a{
   text-decoration: none;
   color: var(--head_textcolor);
-  font-weight: 800;
+  font-weight: 750;
+  font-size: 18px;
 }
 .head_cont2 .panel{
   display: flex;
@@ -77,17 +74,19 @@ body{
 }
 .head_cont2 .panel i{
   font-size: 20px;
+  align-items: center;
 }
+
 .head_cont2 .panel::after{
   content: "";
   bottom: -7px;
   left: 0;
   height: 3px;
-  background-color: var(--head_textcolor);
   position: absolute;
   width: 0;
   border-radius: 5px;
   transition: width 0.4s ease-in;
+  background-color: var(--head_textcolor);
 }
 .head_cont2 .panel:hover::after{
   width: 105%;
@@ -105,7 +104,9 @@ body{
 }
 .head_cont2 .panel.active{
   color: var(--head_textcolor);
+  font-weight: 800;
 }
+
 .head_cont2 .black-white_icon{
   font-size: 25px;
 }

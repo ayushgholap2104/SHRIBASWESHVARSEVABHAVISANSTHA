@@ -12,6 +12,8 @@
 body{
   --head_textcolor:#333;
   --head_bgcolor:#cad8db59;
+  --sidebar_bgcolor:#000000e0;
+  --sidebar_textcolor:#F5F5F5;
 }
 .head{
   padding: 0.3rem;
@@ -22,6 +24,11 @@ body{
   align-items: center;
   justify-content: space-between;
   padding-right: 4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 .head .sidebar{
   font-size: 24px;
@@ -187,4 +194,30 @@ body{
 .foot .credit p:hover{
   color: rgba(116, 0, 142, 0.877);
   cursor: pointer;
+}
+.side_menu{
+  background-color:var(--sidebar_bgcolor);
+  height: 100vh;
+  top: 100%;
+  position: absolute;
+  opacity: 0.95;
+  width: 340px;
+  left: 0;
+  padding: 1.5rem;
+  transition:left 0.4s ease;
+  
+}
+.side_menu .menu{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.side_menu .menu a{
+  text-decoration: none;
+  color: var(--sidebar_textcolor);
+  font-size: 20px;
+  font-weight: 700;
+}
+.side_menu .menu a.active{
+  color: #E67E22;
 }

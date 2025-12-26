@@ -227,8 +227,8 @@ body{
 }
 .side_menu .menu a.active{
   color: #ff4800;
-  /* font-size: 22px; */
-  font-weight: bold;
+  font-size: 22px;
+  font-weight: bolder;
 }
 .side_menu .menu a:hover{
   color: #ff4800;

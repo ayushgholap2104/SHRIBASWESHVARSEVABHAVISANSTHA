@@ -19,6 +19,18 @@
   .head_cont2 .black-white_icon {
     font-size: 23px;
   }
+  .foot .company-info{
+    font-size: 0.8rem;
+  }
+  .foot .copy-right{
+    font-size: 0.8rem;
+  }
+  .foot .copy-right .icons a{
+    font-size: 0.9rem;
+  }
+  .foot .credit{
+    font-size: 0.8rem;
+  }
 }
 @media only screen and (max-width: 790px) {
   .head {
@@ -46,5 +58,18 @@
   }
   .head_cont2 .black-white_icon {
     font-size: 25px;
+  }
+  
+}
+@media only screen and (max-width: 730px) {
+  .foot{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 488px) {
+  .foot .copy-right p{
+    text-align: center;
   }
 }

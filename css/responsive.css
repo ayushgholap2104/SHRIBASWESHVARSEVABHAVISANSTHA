@@ -19,17 +19,29 @@
   .head_cont2 .black-white_icon {
     font-size: 23px;
   }
-  .foot .company-info{
+  .foot .company-info {
     font-size: 0.8rem;
   }
-  .foot .copy-right{
+  .foot .copy-right {
     font-size: 0.8rem;
   }
-  .foot .copy-right .icons a{
+  .foot .copy-right .icons a {
     font-size: 0.9rem;
   }
-  .foot .credit{
+  .foot .credit {
     font-size: 0.8rem;
+  }
+  .hero_subtitle {
+    font-size: 75px;
+  }
+  .hero_title {
+    font-size: 145px;
+  }
+  .hero_description {
+    font-size: 26px;
+  }
+  .main_content{
+    padding-top: 78px;
   }
 }
 @media only screen and (max-width: 790px) {
@@ -59,80 +71,78 @@
   .head_cont2 .black-white_icon {
     font-size: 25px;
   }
-  .side_menu{
+  .side_menu {
     display: block;
   }
-  .hero_subtitle{
-    font-size: 70px;
+  .hero_subtitle {
+    font-size: 65px;
   }
-  .hero_title{
-    font-size: 140px;
+  .hero_title {
+    font-size: 130px;
   }
-  .hero_description{
-    font-size: 26px;
+  .hero_description {
+    font-size: 25px;
   }
-  
 }
 @media only screen and (max-width: 730px) {
-  .foot{
+  .foot {
     display: flex;
     flex-direction: column;
     gap: 25px;
   }
-  .foot .company-info a{
+  .foot .company-info a {
     margin-top: 2px;
   }
-  .foot .credit p{
+  .foot .credit p {
     margin-top: 2px;
   }
-  .side_menu{
+  .side_menu {
     display: block;
   }
-  .side_menu .menu a{
+  .side_menu .menu a {
     font-size: 19px;
   }
-  .side_menu .menu a.active{
+  .side_menu .menu a.active {
     font-size: 21px;
   }
 }
 @media only screen and (max-width: 687px) {
-  .hero_subtitle{
-    font-size: 65px;
+  .hero_subtitle {
+    font-size: 50px;
     line-height: 0.9;
   }
-  .hero_title{
-    font-size: 100px;
+  .hero_title {
+    font-size: 90px;
   }
-  .hero_description{
-    font-size: 24px;
+  .hero_description {
+    font-size: 23px;
     max-width: 26rem;
   }
-  
 }
 @media only screen and (max-width: 488px) {
-  .foot .copy-right p{
+  .foot .copy-right p {
     text-align: center;
   }
-  .side_menu{
+  .side_menu {
     display: block;
     width: 60%;
     padding: 1.5rem;
   }
-  .side_menu .menu a{
+  .side_menu .menu a {
     font-size: 18px;
   }
-  .side_menu .menu a.active{
+  .side_menu .menu a.active {
     font-size: 20px;
   }
-  .hero_subtitle{
-    font-size: 48px;
+  .hero_subtitle {
+    font-size: 45px;
     line-height: 0.9;
     letter-spacing: -1px;
   }
-  .hero_title{
-    font-size: 90px;
+  .hero_title {
+    font-size: 80px;
   }
-  .hero_description{
+  .hero_description {
     font-size: 20px;
     max-width: 26rem;
   }

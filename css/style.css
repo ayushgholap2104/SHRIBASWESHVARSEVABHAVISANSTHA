@@ -121,6 +121,7 @@ body{
 
 .head_cont2 .black-white_icon{
   font-size: 25px;
+  margin-right: 20px;
 }
 .head_cont2 .black-white_icon:hover{
   cursor: pointer;
@@ -237,7 +238,7 @@ body{
 .side_menu .menu a:hover{
   color: #ff4800;
 }
-.main-content{
+.main_content{
   padding-top: 90.9px;
 }
 .hero{
@@ -253,7 +254,7 @@ body{
 }
 .hero_subtitle{
   font-size: 80px;
-  font-weight: 400;
+  font-weight: 500;
   color:var(--head_textcolor);
   flex-wrap: wrap;
   letter-spacing: -3px;

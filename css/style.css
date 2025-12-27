@@ -232,5 +232,10 @@ body{
 }
 .side_menu .menu a:hover{
   color: #ff4800;
-
+}
+.main-content{
+  padding-top: 140px;
+}
+.hero{
+  align-items: center;
 }

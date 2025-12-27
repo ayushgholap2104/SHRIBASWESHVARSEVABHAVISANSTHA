@@ -11,11 +11,12 @@
 }
 body{
   --head_textcolor:#333;
-  --head_bgcolor:#cad8db59;
+  --head_bgcolor:#F5F5F5;
   --sidebar_bgcolor:#000000e0;
   --sidebar_textcolor:#F5F5F5;
   --hero_bgcolor: #f2f2ee;
   --hero_titlecolor:#C74A9B;
+  --hero_btncolor:#C32921;
 }
 .head{
   padding: 0.3rem;
@@ -135,6 +136,7 @@ body{
   color: #f5f5f5;
   display: flex;
   justify-content: space-around;
+  
 }
 .foot .company-info{
   display: flex;
@@ -275,7 +277,10 @@ body{
   line-height: 1.5;
   color: var(--head_textcolor);
   font-size: 28px;
-  margin-bottom: 50px;
   font-weight: 300;
   letter-spacing: -0.1px;
+}
+.hero_btn{
+  text-decoration: none;
+  color: var(--hero_btncolor);
 }

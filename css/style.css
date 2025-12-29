@@ -17,6 +17,7 @@ body{
   --hero_bgcolor: #f2f2ee;
   --hero_titlecolor:#C74A9B;
   --hero_btncolor:#C32921;
+  --vision_bg: #EEF3F9;
 }
 .head{
   padding: 0.3rem;
@@ -294,4 +295,24 @@ body{
 .hero_btn:hover{
   color: #F5F5F5;
   background: var(--hero_btncolor);
+}
+.butterfly_section{
+  padding: 4rem;
+  background: var(--vision_bg);
+}
+.butterfly_content{
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 1fr auto 1fr;
+  gap: 30px;
+  width: 800px;
+  max-width: 100%;
+  align-items: center;
+  justify-items: center;
+}
+.butterfly_body{
+  grid-column: 2;
+  grid-column: 2;
+  width: 160px;
+  height: 160px;
 }

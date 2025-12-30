@@ -10,13 +10,16 @@
 }
 body {
   --head_textcolor: #333;
-  --head_bgcolor: #e8e8e8;
+  --head_bgcolor: #e1e1e1f1;
   --sidebar_bgcolor: #000000e0;
   --sidebar_textcolor: #f5f5f5;
   --hero_bgcolor: #f2f2ee;
   --hero_titlecolor: #c94a9a;
   --hero_btncolor: #c32921;
   --vision_bg: #eef3f9;
+}
+body{
+  overflow-x: clip;
 }
 .head {
   padding: 0.3rem;
@@ -315,20 +318,23 @@ body {
   text-align: center;
   border-radius: 50%;
   background: #eab308;
-  color: #fff;
+  color: #222;
   align-items: center;
   display: flex;
   justify-content: center;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
   z-index: 10;
 }
-.butterfly_body .wing_content {
-  color: #222;
-}
 .butterfly_body .wing_content .wing_number {
   font-size: 5rem;
   line-height: 1;
   font-family: "Abhaya Libre ";
+}
+.butterfly_body .wing_content {
+  width: 150px;
+}
+.butterfly_body .wing_content .wing_text {
+  flex-wrap: wrap;
 }
 .butterfly_content .wing_top_left {
   grid-column: 1;
@@ -337,6 +343,7 @@ body {
   border-radius: 0% 30% 0 40%;
   transform: translate(38px, 100px);
   transform-origin: bottom right;
+  position: relative;
 }
 .butterfly_content .wing_top_left:hover {
   transform: scaleX(1.6);
@@ -411,7 +418,7 @@ body {
   transform: translate(-38px, -100px);
   cursor: pointer;
 }
-.butterfly_content .wing {
+.butterfly_content .wing{
   height: 250px;
   width: 300px;
   padding: 20px;

@@ -43,6 +43,18 @@
   .main_content{
     padding-top: 78px;
   }
+  .butterfly_section .butterfly_content .butterfly_body {
+    height: 220px;
+    width: 220px;
+  }
+  .butterfly_body .wing_content .wing_number {
+    font-size: 4rem;
+  }
+  .butterfly_content .wing{
+    height: 230px;
+    width: 280px;
+    font-size: 1.3rem;
+  }
 }
 @media only screen and (max-width: 790px) {
   .head {
@@ -83,6 +95,42 @@
   .hero_description {
     font-size: 25px;
   }
+  .butterfly_section .butterfly_content .butterfly_body {
+    height: 200px;
+    width: 200px;
+  }
+  .butterfly_body .wing_content .wing_number {
+    font-size: 3rem;
+  }
+  .butterfly_content .wing{
+    height: 210px;
+    width: 260px;
+    font-size: 1.2rem;
+  }
+  .butterfly_content .wing_top_left {
+   transform: translate(38px, 80px);
+  }
+  .butterfly_content .wing_top_right {
+   transform: translate(-38px, 80px);
+  }
+  .butterfly_content .wing_bottom_left {
+   transform: translate(38px, -80px);
+  }
+  .butterfly_content .wing_bottom_right {
+   transform: translate(-38px, -80px);
+  }
+  .butterfly_content .wing_top_left:hover{
+   transform: translate(38px, 80px);
+  }
+  .butterfly_content .wing_top_right:hover {
+   transform: translate(-38px, 80px);
+  }
+  .butterfly_content .wing_bottom_left:hover {
+   transform: translate(38px, -80px);
+  }
+  .butterfly_content .wing_bottom_right:hover {
+   transform: translate(-38px, -80px);
+  }
 }
 @media only screen and (max-width: 730px) {
   .foot {
@@ -105,6 +153,45 @@
   .side_menu .menu a.active {
     font-size: 21px;
   }
+  .butterfly_section .butterfly_content .butterfly_body {
+    height: 180px;
+    width: 180px;
+  }
+  .butterfly_body .wing_content .wing_number {
+    font-size: 2.5rem;
+  }
+  .butterfly_body .wing_content .wing_text {
+    font-size: 17px;
+  }
+  .butterfly_content .wing{
+    height: 190px;
+    width: 240px;
+    font-size: 1.1rem;
+  }
+  .butterfly_content .wing_top_left {
+   transform: translate(38px, 70px);
+  }
+  .butterfly_content .wing_top_right {
+   transform: translate(-38px, 70px);
+  }
+  .butterfly_content .wing_bottom_left {
+   transform: translate(38px, -70px);
+  }
+  .butterfly_content .wing_bottom_right {
+   transform: translate(-38px, -70px);
+  }
+  .butterfly_content .wing_top_left:hover {
+   transform: translate(38px, 70px);
+  }
+  .butterfly_content .wing_top_right:hover {
+   transform: translate(-38px, 70px);
+  }
+  .butterfly_content .wing_bottom_left:hover {
+   transform: translate(38px, -70px);
+  }
+  .butterfly_content .wing_bottom_right:hover {
+   transform: translate(-38px, -70px);
+  }
 }
 @media only screen and (max-width: 687px) {
   .hero_subtitle {
@@ -117,6 +204,92 @@
   .hero_description {
     font-size: 23px;
     max-width: 26rem;
+  }
+  .butterfly_section .butterfly_content .butterfly_body {
+    height: 160px;
+    width: 160px;
+  }
+  .butterfly_body .wing_content .wing_number {
+    font-size: 2rem;
+  }
+  .butterfly_body .wing_content .wing_text {
+    font-size: 16px;
+  }
+  .butterfly_content .wing{
+    height: 170px;
+    width: 220px;
+    font-size: 1rem;
+  }
+  .butterfly_content .wing_top_left {
+   transform: translate(38px, 60px);
+  }
+  .butterfly_content .wing_top_right {
+   transform: translate(-38px, 60px);
+  }
+  .butterfly_content .wing_bottom_left {
+   transform: translate(38px, -60px);
+  }
+  .butterfly_content .wing_bottom_right {
+   transform: translate(-38px, -60px);
+  }
+  .butterfly_content .wing_top_left:hover {
+   transform: translate(38px, 60px);
+  }
+  .butterfly_content .wing_top_right:hover {
+   transform: translate(-38px, 60px);
+  }
+  .butterfly_content .wing_bottom_left:hover {
+   transform: translate(38px, -60px);
+  }
+  .butterfly_content .wing_bottom_right:hover {
+   transform: translate(-38px, -60px);
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* .butterfly_section {
+    padding: 2rem;
+  } */
+  .butterfly_section .butterfly_content .butterfly_body {
+    height: 120px;
+    width: 130px;
+  }
+  .butterfly_body .wing_content .wing_number {
+    font-size: 1.2rem;
+  }
+  .butterfly_body .wing_content {
+    width: 100px;
+  }
+  .butterfly_body .wing_content .wing_text {
+    font-size: 10px;
+  }
+  .butterfly_content .wing{
+    height: 130px;
+    width: 180px;
+    font-size: 0.7rem;
+  }
+  .butterfly_content .wing_top_left {
+   transform: translate(38px, 30px);
+  }
+  .butterfly_content .wing_top_right {
+   transform: translate(-38px, 30px);
+  }
+  .butterfly_content .wing_bottom_left {
+   transform: translate(38px, -30px);
+  }
+  .butterfly_content .wing_bottom_right {
+   transform: translate(-38px, -30px);
+  }
+  .butterfly_content .wing_top_left:hover {
+   transform: translate(38px, 30px);
+  }
+  .butterfly_content .wing_top_right:hover {
+   transform: translate(-38px, 30px);
+  }
+  .butterfly_content .wing_bottom_left:hover {
+   transform: translate(38px, -30px);
+  }
+  .butterfly_content .wing_bottom_right:hover {
+   transform: translate(-38px, -30px);
   }
 }
 @media only screen and (max-width: 488px) {

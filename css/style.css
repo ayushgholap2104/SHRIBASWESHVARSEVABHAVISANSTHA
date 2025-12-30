@@ -11,11 +11,11 @@
 }
 body{
   --head_textcolor:#333;
-  --head_bgcolor:#f5f5f3;
+  --head_bgcolor:#e8e8e8;
   --sidebar_bgcolor:#000000e0;
   --sidebar_textcolor:#F5F5F5;
   --hero_bgcolor: #f2f2ee;
-  --hero_titlecolor:#C74A9B;
+  --hero_titlecolor:#C94A9A;
   --hero_btncolor:#C32921;
   --vision_bg: #EEF3F9;
 }
@@ -78,7 +78,7 @@ body{
 .head .head_cont2 a{
   text-decoration: none;
   color: var(--head_textcolor);
-  font-weight: 750;
+  font-weight: 700;
   font-size: 18px;
 }
 .head_cont2 .panel{
@@ -130,7 +130,7 @@ body{
 }
 .foot{
   padding: 1.2rem;
-  background-color: #1f1b17;
+  background-color: #1f2024;
   width: 100%;
   color: #f5f5f5;
   display: flex;
@@ -325,42 +325,58 @@ body{
   box-shadow: 0 15px 35px rgba(0,0,0,0.15);
   z-index: 10;
 }
+.butterfly_body .wing_content{
+  color: #222;
+}
+.butterfly_body .wing_content .wing_number{
+  font-size: 5rem;
+  line-height: 1;
+  font-family: 'Abhaya Libre ';
+}
 .butterfly_content .wing_top_left{
   grid-column: 1;
   grid-row: 1;
   background:  #EF4444;
   border-radius: 0% 30% 0 40%;
-  transform: translate(38px, 38px);
-
+  transform: translate(38px, 100px);
+  transform-origin: bottom right;
 }
 .butterfly_content .wing_top_right{
   grid-column: 3;
   grid-row: 1;
   border-radius: 30% 0% 40% 0;
   background: #22C55E;
-  transform: translate(-38px, 38px);
+  transform: translate(-38px, 100px);
+  transform-origin: bottom left;
 }
 .butterfly_content .wing_bottom_left{
   grid-column: 1;
   grid-row: 3;
   border-radius: 20% 0% 40% 0%;
   background: #3B82F6;
-  transform: translate(38px, -38px);
+  transform: translate(38px, -100px);
+  transform-origin: top right;
 }
 .butterfly_content .wing_bottom_right{
   grid-column: 3;
   grid-row: 3;
   border-radius: 0% 20% 0% 30%;
   background:#C74A9B;
-  transform: translate(-38px, -38px);
+  transform: translate(-38px, -100px);
+  transform-origin: top left;
 }
 .butterfly_content .wing{
-  height:240px ;
+  height:250px ;
   width: 300px;
   padding: 20px;
   box-shadow: 0 12px 25px rgba(0,0,0,0.08);
-  transition: 0.4s ease;
+  transition: transform 0.4s ease, border-radius 0.4s ease;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  position: relative;
 }

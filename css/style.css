@@ -18,7 +18,7 @@ body {
   --hero_btncolor: #c32921;
   --vision_bg: #eef3f9;
 }
-body{
+body,main{
   overflow-x: clip;
 }
 .head {

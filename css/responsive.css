@@ -320,45 +320,45 @@
     max-width: 26rem;
   }
   .butterfly_section .butterfly_content .butterfly_body {
-    height: 120px;
-    width: 120px;
-  }
-  .butterfly_body .wing_content .wing_number {
-    font-size: 1.6rem;
-  }
-  .butterfly_body .wing_content {
+    height: 100px;
     width: 100px;
   }
+  .butterfly_body .wing_content .wing_number {
+    font-size: 1.4rem;
+  }
+  .butterfly_body .wing_content {
+    width: 90px;
+  }
   .butterfly_body .wing_content .wing_text {
-    font-size: 12px;
+    font-size: 10px;
   }
   .butterfly_content .wing{
-    height: 130px;
-    width: 180px;
-    font-size: 0.8rem;
+    height: 110px;
+    width: 150px;
+    font-size: 0.7rem;
   }
   .butterfly_content .wing_top_left {
-   transform: translate(38px, 40px);
+   transform: translate(40px, 30px);
   }
   .butterfly_content .wing_top_right {
-   transform: translate(-38px, 40px);
+   transform: translate(-40px, 30px);
   }
   .butterfly_content .wing_bottom_left {
-   transform: translate(38px, -40px);
+   transform: translate(40px, -30px);
   }
   .butterfly_content .wing_bottom_right {
-   transform: translate(-38px, -40px);
+   transform: translate(-40px, -30px);
   }
   .butterfly_content .wing_top_left:hover {
-   transform: translate(38px, 40px);
+   transform: translate(40px, 30px);
   }
   .butterfly_content .wing_top_right:hover {
-   transform: translate(-38px, 40px);
+   transform: translate(-40px, 30px);
   }
   .butterfly_content .wing_bottom_left:hover {
-   transform: translate(38px, -40px);
+   transform: translate(40px, -30px);
   }
   .butterfly_content .wing_bottom_right:hover {
-   transform: translate(-38px, -40px);
+   transform: translate(-40px, -30px);
   }
 }

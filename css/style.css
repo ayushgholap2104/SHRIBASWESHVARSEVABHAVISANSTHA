@@ -474,8 +474,15 @@ body{
   height: 2px;
   background: #222;
 }
-.project_container{
-  padding: 6rem;
+.Project_section .project_container{
+  padding: 5rem;
   width: 100%;
   margin: 0;
+}
+.Project_section .project_container .project_1{
+  padding: 1rem;
+}
+.Project_section .project_container .project_1 .project_content{
+  padding: 8rem;
+  border: 1px solid black;
 }

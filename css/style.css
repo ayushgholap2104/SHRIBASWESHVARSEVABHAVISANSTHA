@@ -453,9 +453,24 @@ body{
   text-align: center;
 
 }
-.project_title{
+.Project_section .project_head{
   position: relative;
   font-size: 3rem;
   font-family:'Abhaya Libre';
   font-weight: 600;
+}
+.Project_section .project_head::before{
+  right: 72%;
+}
+.Project_section .project_head::after{
+  left: 72%;
+}
+.Project_section .project_head::before,
+.Project_section .project_head::after{
+  content: "";
+  width: 200px;
+  position: absolute;
+  top: 70%;
+  height: 2px;
+  background: #222;
 }

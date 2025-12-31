@@ -21,6 +21,11 @@ body {
 body,main{
   overflow-x: clip;
 }
+body{
+  background-image: linear-gradient(1.46deg, rgba(255, 219, 112, 0.3) -43.08%, rgba(202, 216, 219, 0.3) 82.53%), url(../img/primary-background.png);
+  background-attachment: fixed;
+}
+
 .head {
   padding: 0.3rem;
   color: var(--head_textcolor);
@@ -245,7 +250,6 @@ body,main{
 }
 .hero {
   text-align: center;
-  background: var(--hero_bgcolor);
   border-top: 1px solid var(--head_bgcolor);
   display: flex;
   flex-direction: column;
@@ -324,6 +328,17 @@ body,main{
   justify-content: center;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
   z-index: 10;
+  transition: all 0.4s ease;
+}
+.butterfly_section .butterfly_content .butterfly_body:hover{
+  border-radius: 1.5rem;
+  transform: scaleX(1);
+  box-shadow: 0 0.5rem 1.5625rem rgba(0, 0, 0, 0.2);
+  background-color: #d7e0e0;
+  border: 0.125rem solid;
+  border-color:#eab308;
+  color: #eab308;
+  cursor: pointer;
 }
 .butterfly_body .wing_content .wing_number {
   font-size: 5rem;

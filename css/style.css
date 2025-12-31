@@ -448,3 +448,14 @@ body{
   font-weight: bolder;
   position: relative;
 }
+.Project_section{
+  padding: 4rem 2rem;
+  text-align: center;
+
+}
+.project_title{
+  position: relative;
+  font-size: 3rem;
+  font-family:'Abhaya Libre';
+  font-weight: 600;
+}

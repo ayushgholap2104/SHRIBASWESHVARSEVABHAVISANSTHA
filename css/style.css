@@ -449,7 +449,7 @@ body{
   position: relative;
 }
 .Project_section{
-  padding: 4rem 2rem;
+  padding: 5rem 2rem;
   text-align: center;
 
 }
@@ -473,4 +473,9 @@ body{
   top: 70%;
   height: 2px;
   background: #222;
+}
+.project_container{
+  padding: 6rem;
+  width: 100%;
+  margin: 0;
 }

@@ -482,6 +482,10 @@ body{
 .Project_section .project_container .project{
   padding: 1rem;
 }
+.Project_section .project_container .project .project_title h2{
+  text-align: left;
+  font-family: 'Abhaya Libre';
+}
 .Project_section .project_container .project .project_content{
   padding: 3rem;
   border: 1px solid black;

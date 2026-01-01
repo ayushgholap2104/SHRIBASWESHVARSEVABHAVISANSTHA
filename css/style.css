@@ -449,15 +449,15 @@ body{
   position: relative;
 }
 .Project_section{
-  padding: 5rem 2rem;
-  text-align: center;
-
+  padding: 2rem;
 }
 .Project_section .project_head{
   position: relative;
   font-size: 3rem;
   font-family:'Abhaya Libre';
   font-weight: 600;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 .Project_section .project_head::before{
   right: 72%;
@@ -475,18 +475,81 @@ body{
   background: #222;
 }
 .Project_section .project_container{
-  padding: 5rem;
+  padding: 2rem;
   width: 100%;
   margin: 0;
 }
 .Project_section .project_container .project{
-  padding: 1rem;
+  width: 100%;
 }
 .Project_section .project_container .project .project_title h2{
-  text-align: left;
+  text-align: center;
   font-family: 'Abhaya Libre';
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  color: #c32921;
+  margin-bottom: 1rem;
 }
 .Project_section .project_container .project .project_content{
-  padding: 3rem;
-  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  position: relative;
+  max-width: 100%;
+  align-items: center;
+  gap: 2rem;
+
 }
+.Project_section .project_container .project .project_content::before{
+  content: '';
+  width: 200vw;
+  background-color: #c32921;
+  position: absolute;
+  height: 1.5px;
+  left: -100vw;
+  right:-100vw;
+  top: 0px;
+}
+.Project_section .project_container .project .project_content::after{
+  content: '';
+  width: 200vw;
+  background-color: #c32921;
+  position: absolute;
+  height: 1.5px;
+  left: -100vw;
+  right:-100vw;
+  bottom: 0px;
+}
+.project .project_content .project_content_media{
+  display: flex;
+  justify-content: center;
+  flex:1;
+}
+.project .project_content .project_content_media .media_displayer{
+  position: relative;
+}
+.project .project_content .project_content_media .media_displayer .media_cont{
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  flex-shrink: 1;
+}
+.project .project_content .project_content_media .media_displayer .media_cont img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.Project_section .project_container .project .project_content .project_description p{
+  font-size: 1.1rem;
+  text-align: justify;
+  line-height: 1.8;
+  color: #222;
+  padding: 4rem 3rem;
+}
+
+
+

@@ -479,10 +479,10 @@ body{
   width: 100%;
   margin: 0;
 }
-.Project_section .project_container .project_1{
+.Project_section .project_container .project{
   padding: 1rem;
 }
-.Project_section .project_container .project_1 .project_content{
-  padding: 8rem;
+.Project_section .project_container .project .project_content{
+  padding: 3rem;
   border: 1px solid black;
 }

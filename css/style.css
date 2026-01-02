@@ -528,7 +528,6 @@ body{
   display: flex;
   justify-content: center;
   flex:1;
-  position: relative;
   height: 610px;
   width:400px;
   border-radius: 3px;
@@ -570,7 +569,7 @@ body{
   text-align: justify;
   line-height: 1.8;
   color: #222;
-  padding: 1rem 3rem;
+  padding: 4rem 3rem;
 }
 
 

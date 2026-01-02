@@ -1,4 +1,42 @@
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+  .Project_section .project_head{
+    font-size: 2.5rem;
+  }
+  .Project_section .project_container .project .project_title h2{
+    font-size: 2.2rem;
+  }
+  .Project_section .project_container .project .project_content{
+    padding: 1rem;
+  }
+  .project .project_content .project_content_media{
+    height: 580px;
+    width: 380px;
+
+  }
+  .Project_section .project_container .project .project_content .project_description{
+    font-size: 1.2rem;
+    padding: 3rem 2rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Project_section .project_head::before,
+  .Project_section .project_head::after{
+    content: "";
+    width: 170px;
+    position: absolute;
+    top: 70%;
+    height: 2px;
+    background: #222;
+  }
+  .project .project_content .project_content_media{
+    height: 540px;
+    width: 340px;
+  }
+  .Project_section .project_container .project .project_content .project_description{
+    font-size: 1.1rem;
+    padding: 2rem 1rem;
+  }
+}
 
 @media only screen and (max-width: 921px) {
   .head {
@@ -56,6 +94,31 @@
     height: 230px;
     width: 280px;
     font-size: 1.3rem;
+  }
+  .Project_section .project_head{
+    font-size: 2.3rem;
+  }
+  .Project_section .project_head::before,
+  .Project_section .project_head::after{
+    content: "";
+    width: 150px;
+    position: absolute;
+    top: 70%;
+    height: 2px;
+    background: #222;
+  }
+  .Project_section .project_container .project .project_title h2{
+    font-size: 1.8rem;
+    text-align: center;
+
+  }
+  .project .project_content .project_content_media{
+    height: 500px;
+    width: 300px;
+  }
+  .Project_section .project_container .project .project_content .project_description{
+    font-size: 1rem;
+    padding: 1rem 1rem;
   }
 }
 @media only screen and (max-width: 790px) {
@@ -132,6 +195,37 @@
   }
   .butterfly_content .wing_bottom_right:hover {
    transform: translate(-38px, -80px);
+  }
+  .Project_section .project_head{
+    font-size: 2.1rem;
+  }
+  .Project_section .project_head::before,
+  .Project_section .project_head::after{
+    content: "";
+    width: 130px;
+    position: absolute;
+    top: 70%;
+    height: 2px;
+    background: #222;
+  }
+  .Project_section .project_container .project .project_title h2{
+    font-size: 1.7rem;
+    text-align: center;
+
+  }
+  .Project_section .project_container .project .project_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project .project_content .project_content_media{
+    height: 600px;
+    width: 400px;
+  }
+  .Project_section .project_container .project .project_content .project_description{
+    font-size: 1.2rem;
+    padding: 1rem 0rem;
   }
 }
 @media only screen and (max-width: 730px) {
@@ -246,6 +340,33 @@
   .butterfly_content .wing_bottom_right:hover {
    transform: translate(-38px, -60px);
   }
+  .Project_section .project_head{
+    font-size: 2rem;
+  }
+  .Project_section .project_head::before,
+  .Project_section .project_head::after{
+    content: "";
+    width: 100px;
+    position: absolute;
+    top: 70%;
+    height: 2px;
+    background: #222;
+  }
+  .Project_section .project_container .project .project_title h2{
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .Project_section .project_container .project .project_content{
+    gap: 1rem;
+  }
+  .project .project_content .project_content_media{
+    height: 550px;
+    width: 350px;
+  }
+  .Project_section .project_container .project .project_content .project_description{
+    font-size: 1.1rem;
+    padding: 1rem 0rem;
+  }
 }
 @media only screen and (max-width: 600px) {
   /* .butterfly_section {
@@ -292,6 +413,42 @@
   }
   .butterfly_content .wing_bottom_right:hover {
    transform: translate(-38px, -50px);
+  }
+  .Project_section .project_head{
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+  }
+  .Project_section .project_head::before,
+  .Project_section .project_head::after{
+    content: "";
+    width: 80px;
+    position: absolute;
+    top: 70%;
+    height: 2px;
+    background: #222;
+  }
+  .Project_section .project_container .project .project_title h2{
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .project .project_content .project_content_media{
+    height: 500px;
+    width: 300px;
+  }
+  .Project_section .project_container .project .project_content .project_description{
+    font-size: 1rem;
+    padding: 1rem 0rem;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .Project_section .project_head::before,
+  .Project_section .project_head::after{
+    content: "";
+    width: 60px;
+    position: absolute;
+    top: 70%;
+    height: 2px;
+    background: #222;
   }
 }
 @media only screen and (max-width: 488px) {
@@ -362,5 +519,57 @@
   }
   .butterfly_content .wing_bottom_right:hover {
    transform: translate(-40px, -30px);
+  }
+  .Project_section .project_head{
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+  }
+  .Project_section .project_head::before,
+  .Project_section .project_head::after{
+    content: "";
+    width: 50px;
+    position: absolute;
+    top: 70%;
+    height: 2px;
+    background: #222;
+  }
+  .Project_section .project_container .project .project_title h2{
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .project .project_content .project_content_media{
+    height: 450px;
+    width: 250px;
+  }
+  .Project_section .project_container .project .project_content .project_description{
+    font-size: 0.9rem;
+    padding: 1rem 0rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Project_section .project_head{
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+  }
+  .Project_section .project_head::before,
+  .Project_section .project_head::after{
+    content: "";
+    width: 30px;
+    position: absolute;
+    top: 70%;
+    height: 2px;
+    background: #222;
+  }
+  .Project_section .project_container .project .project_title h2{
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .project .project_content .project_content_media{
+    height: 400px;
+    width: 200px;
+  }
+  .Project_section .project_container .project .project_content .project_description{
+    font-size: 0.8rem;
+    padding: 1rem 0rem;
   }
 }

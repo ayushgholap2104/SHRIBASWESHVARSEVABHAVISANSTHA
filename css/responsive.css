@@ -554,7 +554,7 @@
   .Project_section .project_head::before,
   .Project_section .project_head::after{
     content: "";
-    width: 30px;
+    width: 40px;
     position: absolute;
     top: 70%;
     height: 2px;

@@ -10,11 +10,11 @@ window.addEventListener("load", () => {
 })
 
 function mediacont_slider(){
-  left_slide_btn = document.querySelector('.left_slide_btn')
-  right_slide_btn = document.querySelector('.right_slide_btn')
-  media_container = document.querySelector('.media_displayer')
-  total_media = document.querySelectorAll('.media_cont').length
-  media_index = 0
+  const left_slide_btn = document.querySelector('.left_slide_btn');
+  const right_slide_btn = document.querySelector('.right_slide_btn');
+  const media_container = document.querySelector('.media_displayer');
+  let total_media = document.querySelectorAll('.media_cont').length;
+  let media_index = 0;
 
   right_slide_btn.addEventListener('click',()=>{
     if (media_index < total_media - 1){
@@ -22,7 +22,7 @@ function mediacont_slider(){
     }else{
       media_index =0
     }
-    right_slide = media_index * -100
+    const right_slide = media_index * -100
     media_container.style.transform = `translateX(${right_slide}%)`
   })
 

@@ -556,8 +556,8 @@ body{
   right: 5px; 
 }
 .project .project_content .project_content_media .media_displayer{
-  height: 600px;
-  width:480px;
+  height: 500px;
+  width:400px;
   display: flex;
   align-items: center;
   position: relative;

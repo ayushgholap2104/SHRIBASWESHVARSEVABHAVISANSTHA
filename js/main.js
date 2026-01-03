@@ -7,3 +7,7 @@ window.addEventListener("load", () => {
     sidebarMenu.classList.toggle('active')
   })
 })
+
+function slideNext(){
+  
+}

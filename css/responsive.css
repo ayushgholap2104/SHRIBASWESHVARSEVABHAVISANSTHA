@@ -9,7 +9,7 @@
     padding: 1rem;
   }
   .project .project_content .project_content_media .media_displayer{
-    height: 580px;
+    height: 500px;
     width: 400px;
   }
   .Project_section .project_container .project .project_content .project_description{
@@ -111,13 +111,22 @@
     text-align: center;
 
   }
+  .Project_section .project_container .project .project_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
   .project .project_content .project_content_media .media_displayer{
-    height: 450px;
-    width: 340px;
+    height: 500px;
+    width: 400px;
   }
   .Project_section .project_container .project .project_content .project_description{
     font-size: 1rem;
-    padding: 2rem 0rem;
+    padding: 3rem 4rem;
   }
 }
 @media only screen and (max-width: 790px) {
@@ -218,12 +227,12 @@
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
   .project .project_content .project_content_media .media_displayer{
-    height: 550px;
-    width: 400px;
+    height: 480px;
+    width: 380px;
   }
   .Project_section .project_container .project .project_content .project_description{
     font-size: 1.2rem;
@@ -362,8 +371,13 @@
     gap: 1rem;
   }
   .project .project_content .project_content_media .media_displayer{
-    height: 550px;
-    width: 350px;
+    height: 460px;
+    width: 360px;
+  }
+  .project .project_content .project_content_media .swipe_btn{
+    font-size: 19px;
+    height: 34px;
+    width: 34px;
   }
   .Project_section .project_container .project .project_content .project_description{
     font-size: 1.1rem;
@@ -434,8 +448,13 @@
     text-align: center;
   }
   .project .project_content .project_content_media .media_displayer{
-    height: 500px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
+  }
+  .project .project_content .project_content_media .swipe_btn{
+    font-size: 18px;
+    height: 33px;
+    width: 33px;
   }
   .Project_section .project_container .project .project_content .project_description{
     font-size: 1rem;
@@ -540,11 +559,13 @@
     text-align: center;
   }
   .project .project_content .project_content_media .media_displayer{
-    height: 450px;
-    width: 250px;
+    height: 400px;
+    width: 300px;
   }
   .project .project_content .project_content_media .swipe_btn{
     font-size: 18px;
+    height: 32px;
+    width: 32px;
   }
   .Project_section .project_container .project .project_content .project_description{
     font-size: 0.9rem;
@@ -570,12 +591,13 @@
     text-align: center;
   }
   .project .project_content .project_content_media .media_displayer{
-    height: 400px;
-    width: 200px;
+    height: 300px;
+    width: 250px;
   }
   .project .project_content .project_content_media .swipe_btn{
-    font-size: 16px;
-    padding: 0.2rem 0.2rem 0.3rem ;
+    font-size: 15px;
+    height: 30px;
+    width: 30px;
   }
   .Project_section .project_container .project .project_content .project_description{
     font-size: 0.8rem;

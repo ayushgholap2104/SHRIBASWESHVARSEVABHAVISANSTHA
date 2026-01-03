@@ -550,10 +550,10 @@ body{
   opacity: 1;
 }
 .project .project_content .project_content_media .left_slide_btn{
-  left: 5px;
+  left: 0;
 }
 .project .project_content .project_content_media .right_slide_btn{
-  right: 5px; 
+  right: 0; 
 }
 .project .project_content .project_content_media .media_displayer{
   height: 500px;
@@ -580,7 +580,7 @@ body{
   text-align: justify;
   line-height: 1.8;
   color: #222;
-  padding: 4rem 3rem;
+  padding: 4rem 5rem;
 }
 
 

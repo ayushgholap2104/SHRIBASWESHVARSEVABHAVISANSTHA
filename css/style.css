@@ -538,6 +538,31 @@ body{
   margin: 30px auto 30px;
   z-index: 0;
 }
+.project .project_content .project_content_media .swipe_btn{
+  position: absolute;
+  display: flex;
+  z-index: 10;
+  padding: 0.3rem 0.3rem 0.4rem ;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  color:#333;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  cursor: pointer;
+  border-end-end-radius: 0px;
+}
+.project .project_content .project_content_media:hover .swipe_btn{
+  opacity: 1;
+}
+.project .project_content .project_content_media .left_slide_btn{
+  left: 0;
+}
+.project .project_content .project_content_media .right_slide_btn{
+  right: 0; 
+}
 .project .project_content .project_content_media .media_displayer{
   width: 100%;
   height: 100%;

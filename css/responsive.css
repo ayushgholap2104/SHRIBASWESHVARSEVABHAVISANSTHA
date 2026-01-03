@@ -541,6 +541,9 @@
     height: 450px;
     width: 250px;
   }
+  .project .project_content .project_content_media .swipe_btn{
+    font-size: 18px;
+  }
   .Project_section .project_container .project .project_content .project_description{
     font-size: 0.9rem;
     padding: 1rem 0rem;
@@ -567,6 +570,10 @@
   .project .project_content .project_content_media{
     height: 400px;
     width: 200px;
+  }
+  .project .project_content .project_content_media .swipe_btn{
+    font-size: 16px;
+    padding: 0.2rem 0.2rem 0.3rem ;
   }
   .Project_section .project_container .project .project_content .project_description{
     font-size: 0.8rem;

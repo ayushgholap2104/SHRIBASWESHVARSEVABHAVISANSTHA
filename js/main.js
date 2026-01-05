@@ -22,8 +22,15 @@ function mediacont_slider(){
     }else{
       media_index =0
     }
-    const right_slide = media_index * -100
-    media_container.style.transform = `translateX(${right_slide}%)`
+    media_container.style.transform = `translateX(${media_index * -100}%)`
   })
 
+  left_slide_btn.addEventListener('click',()=>{
+    if (media_index>0){
+      media_index--
+    }else{
+      media_index = total_media-1
+    }
+    media_container.style.transform = `translateX(${media_index * -100}%)`;
+  })
 }

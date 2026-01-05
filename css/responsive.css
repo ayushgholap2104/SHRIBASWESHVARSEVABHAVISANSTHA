@@ -125,8 +125,8 @@
     width: 400px;
   }
   .Project_section .project_container .project .project_content .project_description{
-    font-size: 1rem;
-    padding: 3rem 4rem;
+    font-size: 1.2rem;
+    padding: 1rem 3rem;
   }
 }
 @media only screen and (max-width: 790px) {
@@ -381,7 +381,7 @@
   }
   .Project_section .project_container .project .project_content .project_description{
     font-size: 1.1rem;
-    padding: 1rem 0rem;
+    padding: 3rem 0rem;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -458,7 +458,7 @@
   }
   .Project_section .project_container .project .project_content .project_description{
     font-size: 1rem;
-    padding: 1rem 0rem;
+    padding: 3rem 0rem;
   }
 }
 @media only screen and (max-width: 520px) {
@@ -569,7 +569,7 @@
   }
   .Project_section .project_container .project .project_content .project_description{
     font-size: 0.9rem;
-    padding: 1rem 0rem;
+    padding: 3rem 0rem;
   }
 }
 @media only screen and (max-width: 400px) {

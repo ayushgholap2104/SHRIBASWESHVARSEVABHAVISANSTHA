@@ -561,7 +561,7 @@ body{
   right: 0; 
 }
 .project .project_content .project_content_media .media_displayer{
-  height: 450px;
+  height: 460px;
   width:350px;
   display: flex;
   align-items: center;
@@ -570,12 +570,11 @@ body{
   scroll-behavior: smooth;
   scrollbar-width: none;
   gap: 15px;
-  border-radius: 10px;
 }
 .project .project_content .project_content_media .media_displayer .media_cont{
   height: 100%;
   min-width: 320px;
-  flex-shrink: 0;
+  flex-shrink: 1;
 
 }
 .project .project_content .project_content_media .media_displayer .media_cont img{

@@ -570,6 +570,7 @@ body{
   scroll-behavior: smooth;
   scrollbar-width: none;
   gap: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 .project .project_content .project_content_media .media_displayer .media_cont{
   height: 100%;

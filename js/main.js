@@ -10,6 +10,13 @@ window.addEventListener("load", () => {
 })
 const functions = {
   mediadataBinding: function () {
+    const projectcolors= [
+      "#eab308",
+      "#ef4444",
+      "#22c55e",
+      "#3b82f6",
+      "#c74a9b",
+    ]
     const events = [
       {
         id: 1,
@@ -32,7 +39,9 @@ const functions = {
                 `,
         eventMedia: [
           "img/Professional_beauty_parlour_course_training.jpg",
-        ]
+        ],
+        eventborderColor: "#22c55e",
+        eventtitleColor: "#22c55e"
       },
       {
         id: 2,

@@ -17,6 +17,7 @@ const functions = {
       "#3b82f6",
       "#c74a9b",
     ]
+    const randomColors = projectcolors[Math.floor(Math.random() * projectcolors.length)]
     const events = [
       {
         id: 1,
@@ -40,8 +41,6 @@ const functions = {
         eventMedia: [
           "img/Professional_beauty_parlour_course_training.jpg",
         ],
-        eventborderColor: "#22c55e",
-        eventtitleColor: "#22c55e"
       },
       {
         id: 2,
@@ -76,6 +75,8 @@ const functions = {
     events.forEach(data => {
       const project = document.createElement('div')
       project.classList.add('project');
+      const randomColors = projectcolors[Math.floor(Math.random() * projectcolors.length)]
+      project.style.setProperty('--theme_color',randomColors)
       const media_id = data.id;
       const media_title = data.eventTitle;
       project.setAttribute('project_id', media_id);

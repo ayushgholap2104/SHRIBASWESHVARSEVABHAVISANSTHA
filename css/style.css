@@ -17,6 +17,7 @@ body {
   --hero_titlecolor: #c94a9a;
   --hero_btncolor: #c32921;
   --vision_bg: #eef3f9;
+  --theme_color:#c32921;
 }
 body,main{
   overflow-x: clip;
@@ -494,7 +495,7 @@ body{
   font-size: 2.5rem;
   font-weight: 800;
   letter-spacing: 0.1rem;
-  color: #c32921;
+  color: var(--theme_color);
   margin-bottom: 1rem;
 }
 .Project_section .project_container .project .project_content{
@@ -509,7 +510,7 @@ body{
 .Project_section .project_container .project .project_content::before{
   content: '';
   width: 200vw;
-  background-color: var(--border_color,#c32921);
+  background-color: var(--theme_color);
   position: absolute;
   height: 1px;
   left: -100vw;
@@ -519,7 +520,7 @@ body{
 .Project_section .project_container .project .project_content::after{
   content: '';
   width: 200vw;
-  background-color: var(--border_color,#c32921);
+  background-color: var(--theme_color,#c32921);
   position: absolute;
   height: 1px;
   left: -100vw;

@@ -178,7 +178,14 @@ const functions = {
                 Through this initiative, the Trust reaffirmed its commitment to community welfare, preventive healthcare, and women’s empowerment by ensuring timely medical assistance and spreading awareness about healthy lifestyles.
               `,
         eventMedia: [
-          "img/Seva_pakhwada_intiative.jpg",
+          "img/Various_initiatives_at_salgoan_grampanchayat.jpg",
+          "img/Various_initiatives_at_salgoan_grampanchayat1.jpg",
+          "img/Various_initiatives_at_salgoan_grampanchayat2.jpg",
+          "img/Various_initiatives_at_salgoan_grampanchayat3.jpg",
+          "img/Various_initiatives_at_salgoan_grampanchayat4.jpg",
+          "img/Various_initiatives_at_salgoan_grampanchayat5.jpg",
+          "img/Various_initiatives_at_salgoan_grampanchayat6.jpg",
+          "img/Various_initiatives_at_salgoan_grampanchayat7.jpg",
         ],
       },
     ]

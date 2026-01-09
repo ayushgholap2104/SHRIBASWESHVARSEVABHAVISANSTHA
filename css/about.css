@@ -17,7 +17,7 @@ body {
   --hero_titlecolor: #c94a9a;
   --hero_btncolor: #c32921;
   --vision_bg: #eef3f9;
-  --theme_color:#c32921;
+  --theme_color:#757575;
 }
 body,main{
   overflow-x: clip;
@@ -148,44 +148,23 @@ body{
   justify-content: center;
   gap: 100px;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
-.NGO_intro{
+.SBSO{
   width:60%;
-  /* border: 1px solid black; */
   height: 100vh;
+  position: relative;
 }
-.NGO_intro img{
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  /* object-fit: cover; */
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 30px;
-
+.SBSO::after{
+  content: '';
+  width: 500px;
+  height: 1px;
+  background: var(--theme_color);
+  position: absolute;
+  top: 106%;
+  left: 20%;
 }
-.NGO_objective{
-  width:60%;
-  /* border: 1px solid black; */
-  height: 100vh;
-}
-.NGO_objective img{
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  /* object-fit: cover; */
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 30px;
-}
-.NGO_founder{
-  width:60%;
-  /* border: 1px solid black; */
-  height: 100vh;
-
-}
-.NGO_founder img{
+.SBSO img{
   width: 100%;
   height: 100%;
   background-size: cover;

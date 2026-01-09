@@ -20,9 +20,9 @@
     gap: 90px;
   }
   .SBSO{
-   width: 60%;
-   min-width:60%;
-   height: 75vh;
+   width: 62%;
+   min-width:62%;
+   height: 70vh;
   }
   .SBSO::after{
     width: 35%;
@@ -160,9 +160,9 @@
     gap: 75px;
   }
   .SBSO{
-   width: 60%;
-   min-width:60%;
-   height: 70vh;
+   width: 65%;
+   min-width:65%;
+   height: 65vh;
   }
   .SBSO::after{
     width: 32%;
@@ -708,10 +708,11 @@
   }
   .NGO_cont{
     gap: 50px;
+    margin-bottom: 60px;
   }
   .SBSO{
    width: 70%;
    min-width:70%;
-   height: 40vh;
+   height: 45vh;
   }
 }

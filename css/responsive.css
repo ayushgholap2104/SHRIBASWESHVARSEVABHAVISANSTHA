@@ -16,6 +16,18 @@
     font-size: 1.2rem;
     padding: 3rem 0rem;
   }
+  .NGO_cont{
+    gap: 90px;
+  }
+  .SBSO{
+   width: 60%;
+   min-width:60%;
+   height: 75vh;
+  }
+  .SBSO::after{
+    width: 35%;
+    left: 30%;
+  }
 }
 @media only screen and (max-width: 1000px) {
   .Project_section .project_head::before,
@@ -34,6 +46,18 @@
   .Project_section .project_container .project .project_content .project_description{
     font-size: 1.1rem;
     padding: 2rem 0rem;
+  }
+  .NGO_cont{
+    gap: 80px;
+  }
+  .SBSO{
+   width: 58%;
+   min-width:58%;
+   height: 70vh;
+  }
+  .SBSO::after{
+    width: 32%;
+    left: 31%;
   }
 }
 
@@ -130,6 +154,19 @@
   .Project_section .project_container .project .project_content .project_description{
     font-size: 1.2rem;
     padding: 1rem 1rem;
+  }
+  
+  .NGO_cont{
+    gap: 75px;
+  }
+  .SBSO{
+   width: 60%;
+   min-width:60%;
+   height: 70vh;
+  }
+  .SBSO::after{
+    width: 32%;
+    left: 31%;
   }
 }
 @media only screen and (max-width: 790px) {
@@ -244,6 +281,19 @@
     font-size: 1.2rem;
     padding: 1rem 1rem;
   }
+  .NGO_cont{
+    gap: 70px;
+    margin-bottom: 80px;
+  }
+  .SBSO{
+   width: 60%;
+   min-width:60%;
+   height: 60vh;
+  }
+  /* .SBSO::after{
+    width: 32%;
+    left: 31%;
+  } */
 }
 @media only screen and (max-width: 730px) {
   .foot {
@@ -392,6 +442,14 @@
     font-size: 1.1rem;
     padding: 3rem 0rem;
   }
+  .NGO_cont{
+    gap: 65px;
+  }
+  .SBSO{
+   width: 65%;
+   min-width:65%;
+   height: 60vh;
+  }
 }
 @media only screen and (max-width: 600px) {
   /* .butterfly_section {
@@ -472,6 +530,14 @@
     font-size: 1rem;
     padding: 3rem 0rem;
   }
+  .NGO_cont{
+    gap: 60px;
+  }
+  .SBSO{
+   width: 70%;
+   min-width:70%;
+   height: 55vh;
+  }
 }
 @media only screen and (max-width: 520px) {
   .Project_section .project_head::before,
@@ -482,6 +548,14 @@
     top: 70%;
     height: 2px;
     background: #222;
+  }
+  .NGO_cont{
+    gap: 55px;
+  }
+  .SBSO{
+   width: 70%;
+   min-width:70%;
+   height: 50vh;
   }
 }
 @media only screen and (max-width: 488px) {
@@ -587,6 +661,14 @@
     padding: 3rem 0rem;
     width: 100%;
   }
+  .NGO_cont{
+    gap: 55px;
+  }
+  .SBSO{
+   width: 70%;
+   min-width:70%;
+   height: 50vh;
+  }
 }
 @media only screen and (max-width: 400px) {
   .Project_section .project_head{
@@ -623,5 +705,13 @@
     padding: 2rem 0rem;
     width: 100%;
     margin: auto;
+  }
+  .NGO_cont{
+    gap: 50px;
+  }
+  .SBSO{
+   width: 70%;
+   min-width:70%;
+   height: 40vh;
   }
 }

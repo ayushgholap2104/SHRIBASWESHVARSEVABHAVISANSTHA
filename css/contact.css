@@ -146,7 +146,7 @@ body{
 }
 .Contact_cont .sub_cont1{
   width: 80%;
-  height: 100vh;
+  height: fit-content;
   margin-bottom: 40px;
   margin-top: 40px;
   border-radius: 2px;
@@ -173,6 +173,7 @@ body{
   justify-content: center;
   color: #9d4600;
   border-radius: 4px;
+  width: 96.6%;
 }
 .main_con .Contact_desc i{
   font-size: 32px;
@@ -199,26 +200,120 @@ form label{
 form .input_cont{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
+  max-width: 44%;
+  width: 44%;
+  margin-bottom: 20px;
+  
+}
+form .input_cont #name{
+  outline: none;
   height: 2.5rem;
-  max-width: 55%;
-  width: 55%;
+  border: 0.05rem solid #0000001a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0.8rem;
+  border-radius: 5px;
+  border: 1.3px solid rgba(123, 123, 123, 0.489);
+  transition: border 0.3s ease;
+  text-transform: capitalize;
+  
+}
+form .input_cont #name:hover{
+  border: 1.3px solid #fd7404;
 }
 form .input_cont1{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
+  max-width: 50%;
+  width: 50%;
+  margin-bottom: 20px;
 }
-
+form .input_cont1 #email{
+  outline: none;
+  height: 2.5rem;
+  border: 0.05rem solid #0000001a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0.8rem;
+  border-radius: 5px;
+  border: 1.3px solid rgba(123, 123, 123, 0.489);
+  transition: border 0.3s ease;
+}
+form .input_cont1 #email:hover{
+  border: 1.3px solid #fd7404;
+}
 form .input_cont2{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
+  max-width: 96.5%;
+  width: 96.5%;
+  margin-bottom: 20px;
+}
+form .input_cont2 #subject{
+  outline: none;
+  height: 2.5rem;
+  border: 0.05rem solid #0000001a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0.8rem;
+  border-radius: 5px;
+  border: 1.3px solid rgba(123, 123, 123, 0.489);
+  transition: border 0.3s ease;
+  text-transform: capitalize;
+}
+form .input_cont2 #subject:hover{
+  border: 1.3px solid #fd7404;
 }
 form .input_cont3{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
+  max-width: 96.5%;
+  width: 96.5%;
+  margin-bottom: 20px;
+  
+}
+form .input_cont3 #message{
+  outline: none;
+  height: 12rem;
+  border: 0.05rem solid #0000001a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0.8rem;
+  border-radius: 5px;
+  padding-top:0.7rem ;
+  border: 1.3px solid rgba(123, 123, 123, 0.489);
+  transition: border 0.3s ease;
+  text-transform: capitalize;
+}
+form .input_cont3 #message:hover{
+  border: 1.3px solid #fd7404;
+}
+.submit_btn{
+  height: 2.5rem;
+  width: 7rem;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f39140;
+  color: #f97203;
+  transition: all 0.3s ease;
+
+}
+.submit_btn:hover{
+  cursor: pointer;
+  background-color: #fe7302;
+  color: var(--primary-color1);
 }
 .foot {
   padding: 1.2rem;

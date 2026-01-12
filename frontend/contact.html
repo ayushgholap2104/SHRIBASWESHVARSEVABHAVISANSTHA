@@ -70,11 +70,48 @@
           <div class="Contact_desc">
             <i class="fa-solid fa-circle-info"></i>
             <p>
-              This is a contact page or a medium where you can reach up to us by providing the significant feedbacks
+              This is a contact page or a medium where you can reach up to us by
+              providing the significant feedbacks, dead links or concerns as
+              well
             </p>
+          </div>
+          <form action="" method="post" id="contact_form">
+            <div class="input_cont">
+              <label id="label1">
+                Your Name
+                <span>*</span>
+              </label>
+              <input type="text" id="name" placeholder="Enter Name" required />
+            </div>
+            <div class="input_cont1">
+              <label id="label2">
+                Email Address
+                <span>*</span>
+              </label>
+              <input type="text" id="email" placeholder="Enter your email" required />
+            </div>
+            <div class="input_cont2">
+              <label id="label3">
+                Your Subject
+                <span>*</span>
+              </label>
+              <input type="text" id="subject" placeholder="Enter Your Subject" required />
+            </div>
+            <div class="input_cont3">
+              <label id="label4">
+                Your Message
+                <span>*</span>
+              </label>
+              <textarea
+                name="message"
+                id="message"
+                minlength="5"
+                placeholder="Enter Your Message...."
+              ></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </form>
         </div>
-      </div>
-        <form action="" method="post"></form>
       </div>
     </main>
     <footer class="foot">

@@ -506,7 +506,6 @@ body{
   gap: 4rem;
   padding: 2rem;
   position: relative;
-  
 }
 .Project_section .project_container .project .project_content::before{
   content: '';

@@ -136,6 +136,22 @@ body{
 .head_cont2 .black-white_icon:hover {
   cursor: pointer;
 }
+.Contact_cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  padding: 6rem;
+}
+.sub_cont1{
+  /* align-items: center; */
+  width: 80%;
+  border: 1px solid black;
+  height: 100vh;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border-radius: 2px;
+}
 .foot {
   padding: 1.2rem;
   background-color: #1f2024;

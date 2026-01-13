@@ -375,7 +375,7 @@
   } */
   .Contact_cont{
     margin-top: 50px;
-    padding: 2rem;
+    padding: 3rem;
     margin-bottom: 30px;
   }
   .Contact_cont .sub_cont1{
@@ -495,7 +495,7 @@
    transform: translate(-38px, -70px);
   }
   .Contact_cont{
-    padding: 2rem;
+    padding: 3rem;
   }
 }
 @media only screen and (max-width: 687px) {
@@ -688,7 +688,7 @@
   }
   .Contact_cont{
     margin-top: 50px;
-    padding: 0.8rem;
+    padding: 2rem;
     margin-bottom: 30px;
   }
   .Contact_cont .sub_cont1{
@@ -878,7 +878,7 @@
   }
   .Contact_cont{
     margin-top: 50px;
-    padding: 0.8rem;
+    padding: 2rem;
     margin-bottom: 30px;
   }
   .Contact_cont .sub_cont1{
@@ -983,7 +983,7 @@
   }
   .Contact_cont{
     margin-top: 50px;
-    padding: 0.5rem;
+    padding: 1rem;
     margin-bottom: 30px;
   }
   .Contact_cont .sub_cont1{

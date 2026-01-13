@@ -28,6 +28,26 @@
     width: 35%;
     left: 30%;
   }
+  .Contact_cont{
+    padding: 5rem;
+  }
+  .Contact_cont .sub_cont1{
+    width: 90%;
+  }
+  .Contact_cont .sub_cont1 .head1{
+    font-size: 38px;
+  }
+  .main_con .Contact_desc i{
+    font-size: 30px;
+  }
+  .main_con .Contact_desc p{
+    font-size: 18px;
+    margin-right: 35px;
+  }
+  form{
+    margin-top: 2rem;
+    /* gap: 0.8rem; */
+  }
 }
 @media only screen and (max-width: 1000px) {
   .Project_section .project_head::before,
@@ -58,6 +78,65 @@
   .SBSO::after{
     width: 32%;
     left: 31%;
+  }
+  .Contact_cont{
+    margin-top: 50px;
+    padding: 4rem;
+    margin-bottom: 30px;
+  }
+  .Contact_cont .sub_cont1{
+    width: 100%;
+  }
+  .Contact_cont .sub_cont1 .head1{
+    font-size: 36px;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .Contact_cont .main_con{
+    padding-top: 2rem;
+  }
+  .main_con .Contact_desc{
+    padding: 1rem;
+    width: 96%;
+  }
+  .main_con .Contact_desc i{
+    font-size: 28px;
+  }
+  .main_con .Contact_desc p{
+    font-size: 18px;
+    margin-right: 18px;
+  }
+  form{
+    margin-top: 2rem;
+    /* gap: 0.8rem; */
+  }
+  form .input_cont{
+    width: 46%;
+    max-width: 46%;
+    margin-bottom: 30px;
+  }
+  form .input_cont1{
+    width: 50%;
+    max-width: 50%;
+    margin-bottom: 30px;
+  }
+  form .input_cont2{
+    margin-bottom: 30px;
+  }
+  form label{
+    font-size: 18px;
+  }
+  form input::placeholder{
+    font-size: 16px;
+  }
+  form textarea::placeholder{
+    font-size: 16px;
+  }
+  .submit_btn{
+    width: 7rem;
+    height:2.5rem ;
+    font-size: 17px;
+    margin-bottom: 30px;
   }
 }
 
@@ -294,6 +373,66 @@
     width: 32%;
     left: 31%;
   } */
+  .Contact_cont{
+    margin-top: 50px;
+    padding: 2rem;
+    margin-bottom: 30px;
+  }
+  .Contact_cont .sub_cont1{
+    width: 100%;
+  }
+  .Contact_cont .sub_cont1 .head1{
+    font-size: 32px;
+    padding: 1.5rem;
+  }
+  .Contact_cont .main_con{
+    padding-top: 2rem;
+  }
+  .main_con .Contact_desc{
+    padding: 1rem;
+    width: 96%;
+  }
+  .main_con .Contact_desc i{
+    font-size: 26px;
+  }
+  .main_con .Contact_desc p{
+    font-size: 16px;
+    margin-right: 16px;
+  }
+  form{
+    margin-top: 2rem;
+    /* gap: 0.8rem; */
+  }
+  form .input_cont{
+    width: 46%;
+    max-width: 46%;
+    margin-bottom: 30px;
+  }
+  form .input_cont1{
+    width: 50%;
+    max-width: 50%;
+    margin-bottom: 30px;
+  }
+  form .input_cont2{
+    margin-bottom: 30px;
+
+  }
+  form label{
+    font-size: 16px;
+  }
+  form input::placeholder{
+    font-size: 14px;
+  }
+  form textarea::placeholder{
+    font-size: 14px;
+  }
+  .submit_btn{
+    width: 6rem;
+    height:2.5rem ;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
 }
 @media only screen and (max-width: 730px) {
   .foot {
@@ -354,6 +493,9 @@
   }
   .butterfly_content .wing_bottom_right:hover {
    transform: translate(-38px, -70px);
+  }
+  .Contact_cont{
+    padding: 2rem;
   }
 }
 @media only screen and (max-width: 687px) {
@@ -450,6 +592,12 @@
    min-width:65%;
    height: 60vh;
   }
+  form input::placeholder{
+    font-size: 14px;
+  }
+  form textarea::placeholder{
+    font-size: 14px;
+  }
 }
 @media only screen and (max-width: 600px) {
   /* .butterfly_section {
@@ -537,6 +685,65 @@
    width: 70%;
    min-width:70%;
    height: 55vh;
+  }
+  .Contact_cont{
+    margin-top: 50px;
+    padding: 0.8rem;
+    margin-bottom: 30px;
+  }
+  .Contact_cont .sub_cont1{
+    width: 100%;
+  }
+  .Contact_cont .sub_cont1 .head1{
+    font-size: 30px;
+    padding: 1.5rem;
+  }
+  .Contact_cont .main_con{
+    padding-top: 1.5rem;
+  }
+  .main_con .Contact_desc{
+    padding: 1rem;
+    width: 96%;
+  }
+  .main_con .Contact_desc i{
+    font-size: 24px;
+  }
+  .main_con .Contact_desc p{
+    font-size: 14px;
+    margin-right: 14px;
+  }
+  form{
+    margin-top: 2rem;
+    /* gap: 0.8rem; */
+  }
+  form .input_cont{
+    width: 46%;
+    max-width: 46%;
+    margin-bottom: 30px;
+  }
+  form .input_cont1{
+    width: 50%;
+    max-width: 50%;
+    margin-bottom: 30px;
+  }
+  form .input_cont2{
+    margin-bottom: 30px;
+
+  }
+  form label{
+    font-size: 15px;
+  }
+  form input::placeholder{
+    font-size: 13px;
+  }
+  form textarea::placeholder{
+    font-size: 13px;
+  }
+  .submit_btn{
+    width: 6rem;
+    height:2.4rem ;
+    font-size: 12px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 520px) {
@@ -669,6 +876,65 @@
    min-width:70%;
    height: 50vh;
   }
+  .Contact_cont{
+    margin-top: 50px;
+    padding: 0.8rem;
+    margin-bottom: 30px;
+  }
+  .Contact_cont .sub_cont1{
+    width: 100%;
+  }
+  .Contact_cont .sub_cont1 .head1{
+    font-size: 28px;
+    padding: 1.5rem;
+  }
+  .Contact_cont .main_con{
+    padding-top: 1.5rem;
+  }
+  .main_con .Contact_desc{
+    padding: 1rem;
+    width: 96%;
+  }
+  .main_con .Contact_desc i{
+    font-size: 22px;
+  }
+  .main_con .Contact_desc p{
+    font-size: 12px;
+    margin-right: 12px;
+  }
+  form{
+    margin-top: 2rem;
+    /* gap: 0.8rem; */
+  }
+  form .input_cont{
+    width: 46%;
+    max-width: 46%;
+    margin-bottom: 30px;
+  }
+  form .input_cont1{
+    width: 50%;
+    max-width: 50%;
+    margin-bottom: 30px;
+  }
+  form .input_cont2{
+    margin-bottom: 30px;
+
+  }
+  form label{
+    font-size: 14px;
+  }
+  form input::placeholder{
+    font-size: 12px;
+  }
+  form textarea::placeholder{
+    font-size: 12px;
+  }
+  .submit_btn{
+    width: 6rem;
+    height:2.5rem ;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
 }
 @media only screen and (max-width: 400px) {
   .Project_section .project_head{
@@ -714,5 +980,57 @@
    width: 70%;
    min-width:70%;
    height: 45vh;
+  }
+  .Contact_cont{
+    margin-top: 50px;
+    padding: 0.5rem;
+    margin-bottom: 30px;
+  }
+  .Contact_cont .sub_cont1{
+    width: 100%;
+  }
+  .Contact_cont .sub_cont1 .head1{
+    font-size: 26px;
+    padding: 1rem;
+  }
+  .Contact_cont .main_con{
+    padding-top: 1.5rem;
+  }
+  .main_con .Contact_desc{
+    padding: 0.8rem;
+    width: 96%;
+  }
+  .main_con .Contact_desc i{
+    font-size: 20px;
+  }
+  .main_con .Contact_desc p{
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  form{
+    margin-top: 2rem;
+    /* gap: 0.8rem; */
+  }
+  form .input_cont{
+    width: 46%;
+    max-width: 46%;
+  }
+  form .input_cont1{
+    width: 50%;
+    max-width: 50%;
+  }
+  form label{
+    font-size: 13px;
+  }
+  form input::placeholder{
+    font-size: 10px;
+  }
+  form textarea::placeholder{
+    font-size: 10px;
+  }
+  .submit_btn{
+    width: 5rem;
+    height:2rem ;
+    font-size: 11px;
   }
 }

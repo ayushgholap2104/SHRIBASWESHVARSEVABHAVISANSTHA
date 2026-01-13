@@ -19,12 +19,12 @@
   .NGO_cont{
     gap: 90px;
   }
-  .SBSO{
+  .NGO_cont .SBSO{
    width: 62%;
    min-width:62%;
    height: 70vh;
   }
-  .SBSO::after{
+  .NGO_cont .SBSO::after{
     width: 35%;
     left: 30%;
   }
@@ -70,12 +70,12 @@
   .NGO_cont{
     gap: 80px;
   }
-  .SBSO{
+  .NGO_cont .SBSO{
    width: 58%;
    min-width:58%;
    height: 70vh;
   }
-  .SBSO::after{
+  .NGO_cont .SBSO::after{
     width: 32%;
     left: 31%;
   }
@@ -238,12 +238,12 @@
   .NGO_cont{
     gap: 75px;
   }
-  .SBSO{
+  .NGO_cont .SBSO{
    width: 65%;
    min-width:65%;
    height: 65vh;
   }
-  .SBSO::after{
+  .NGO_cont .SBSO::after{
     width: 32%;
     left: 31%;
   }
@@ -364,7 +364,7 @@
     gap: 70px;
     margin-bottom: 80px;
   }
-  .SBSO{
+  .NGO_cont .SBSO{
    width: 60%;
    min-width:60%;
    height: 60vh;
@@ -587,7 +587,7 @@
   .NGO_cont{
     gap: 65px;
   }
-  .SBSO{
+  .NGO_cont .SBSO{
    width: 65%;
    min-width:65%;
    height: 60vh;
@@ -681,7 +681,7 @@
   .NGO_cont{
     gap: 60px;
   }
-  .SBSO{
+  .NGO_cont .SBSO{
    width: 70%;
    min-width:70%;
    height: 55vh;
@@ -871,7 +871,7 @@
   .NGO_cont{
     gap: 55px;
   }
-  .SBSO{
+  .NGO_cont .SBSO{
    width: 70%;
    min-width:70%;
    height: 50vh;
@@ -976,7 +976,7 @@
     gap: 50px;
     margin-bottom: 60px;
   }
-  .SBSO{
+  .NGO_cont .SBSO{
    width: 70%;
    min-width:70%;
    height: 45vh;

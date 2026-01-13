@@ -152,6 +152,7 @@ body{
   border-radius: 2px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   border: 1px solid rgba(159, 159, 159, 0.877);
+  
 }
 .Contact_cont .sub_cont1 .head1{
   padding: 1.5rem;
@@ -164,6 +165,7 @@ body{
   flex-direction: column;
   padding:1rem;
   padding-top: 2rem;
+  padding-left: 40px;
 }
 .main_con .Contact_desc{
   background-color: #fff9bf;

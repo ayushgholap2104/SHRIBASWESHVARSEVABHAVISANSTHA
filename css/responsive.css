@@ -432,7 +432,10 @@
     font-size: 15px;
     margin-bottom: 20px;
   }
-
+  .popup.active{
+   top: 50%;
+   transform: translate(-52%,-40%);
+  }
 }
 @media only screen and (max-width: 730px) {
   .foot {
@@ -496,6 +499,10 @@
   }
   .Contact_cont{
     padding: 3rem;
+  }
+  .popup.active{
+   top: 50%;
+   transform: translate(-50%,-65%);
   }
 }
 @media only screen and (max-width: 687px) {

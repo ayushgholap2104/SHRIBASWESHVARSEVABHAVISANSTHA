@@ -7,10 +7,10 @@ window.addEventListener("load", () => {
     sidebarMenu.classList.toggle('active')
   })
 })
-const form = document.querySelector('#contact_form')
+const form = document.getElementById('contact_form')
 async function feedback_msg(event){
   event.preventDefault()
-  const status = document.getElementById('.popup')
+  const status = document.querySelector('.popup')
   data = new FormData(event.target)
 
   try {
@@ -31,9 +31,9 @@ async function feedback_msg(event){
     console.log(err)
   }
 }
-form.addEventListener('submit',feedback_msg())
+form.addEventListener('submit',feedback_msg)
 const close_btn = document.getElementById('close_btn')
 
 close_btn.addEventListener('click',()=>{
-  document.getElementById('.popup').classList.remove('active')
+  document.querySelector('.popup').classList.remove('active')
 })

@@ -339,7 +339,7 @@ form .input_cont3 #message:hover{
 }
 .popup.active{
   top: 50%;
-  transform: translate(-60%,-45%);
+  transform: translate(-55%,-40%);
   visibility: visible;
 }
 .center{

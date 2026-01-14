@@ -202,13 +202,11 @@ form label{
 form .input_cont{
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   max-width: 46%;
   width: 46%;
   margin-bottom: 35px;
   padding-right: 1rem;
-  
-  
 }
 form .input_cont #name{
   outline: none;
@@ -220,17 +218,17 @@ form .input_cont #name{
   padding-left: 0.8rem;
   border-radius: 5px;
   border: 1.3px solid rgba(123, 123, 123, 0.489);
-  transition: border 0.3s ease;
+  transition: all 0.3s ease;
   text-transform: capitalize;
-  
 }
 form .input_cont #name:hover{
   border: 1.3px solid #fd7404;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 form .input_cont1{
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   max-width: 50%;
   width: 50%;
   margin-bottom: 35px;
@@ -245,15 +243,16 @@ form .input_cont1 #email{
   padding-left: 0.8rem;
   border-radius: 5px;
   border: 1.3px solid rgba(123, 123, 123, 0.489);
-  transition: border 0.3s ease;
+  transition:all 0.3s ease;
 }
 form .input_cont1 #email:hover{
   border: 1.3px solid #fd7404;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 form .input_cont2{
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   max-width: 96%;
   width: 96%;
   margin-bottom: 35px;
@@ -268,16 +267,17 @@ form .input_cont2 #subject{
   padding-left: 0.8rem;
   border-radius: 5px;
   border: 1.3px solid rgba(123, 123, 123, 0.489);
-  transition: border 0.3s ease;
+  transition: all 0.3s ease;
   text-transform: capitalize;
 }
 form .input_cont2 #subject:hover{
   border: 1.3px solid #fd7404;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 form .input_cont3{
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   max-width: 96%;
   width: 96%;
   margin-bottom: 45px;
@@ -294,11 +294,12 @@ form .input_cont3 #message{
   border-radius: 5px;
   padding-top:0.7rem ;
   border: 1.3px solid rgba(123, 123, 123, 0.489);
-  transition: border 0.3s ease;
+  transition: all 0.3s ease;
   text-transform: capitalize;
 }
 form .input_cont3 #message:hover{
   border: 1.3px solid #fd7404;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 .submit_btn{
   height: 2.5rem;
@@ -313,7 +314,7 @@ form .input_cont3 #message:hover{
   color: #f97203;
   transition: all 0.3s ease;
   margin-bottom: 25px;
-  box-shadow: 0 0.08rem 0.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 .submit_btn:hover{
   cursor: pointer;

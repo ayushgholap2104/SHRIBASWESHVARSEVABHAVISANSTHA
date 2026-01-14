@@ -335,10 +335,12 @@ form .input_cont3 #message:hover{
   align-items: center;
   gap: 0.5rem;
   /* font-family: "Poppins"; */
+  visibility: hidden;
 }
 .popup.active{
   top: 50%;
   transform: translate(-60%,-45%);
+  visibility: visible;
 }
 .center{
   position: fixed;
@@ -367,7 +369,7 @@ form .input_cont3 #message:hover{
   margin-bottom: 15px;
 }
 .popup .dismiss_btn button{
-  height: 2.4rem;
+  height: 2.5rem;
   width: 5rem;
   font-size: 18px;
   border-radius: 6px;

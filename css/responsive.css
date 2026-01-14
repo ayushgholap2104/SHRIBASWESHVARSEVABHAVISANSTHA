@@ -1,57 +1,61 @@
 @media only screen and (max-width: 1200px) {
-  .Project_section .project_head{
+  .Project_section .project_head {
     font-size: 2.5rem;
   }
-  .Project_section .project_container .project .project_title h2{
+  .Project_section .project_container .project .project_title h2 {
     font-size: 2.2rem;
   }
-  .Project_section .project_container .project .project_content{
+  .Project_section .project_container .project .project_content {
     padding: 1rem;
   }
   /* .project .project_content .project_content_media .media_displayer{
     height: 500px;
     width: 400px;
   } */
-  .Project_section .project_container .project .project_content .project_description{
+  .Project_section
+    .project_container
+    .project
+    .project_content
+    .project_description {
     font-size: 1.2rem;
     padding: 3rem 0rem;
   }
-  .NGO_cont{
+  .NGO_cont {
     gap: 90px;
   }
-  .NGO_cont .SBSO{
-   width: 62%;
-   min-width:62%;
-   height: 70vh;
+  .NGO_cont .SBSO {
+    width: 62%;
+    min-width: 62%;
+    height: 70vh;
   }
-  .NGO_cont .SBSO::after{
+  .NGO_cont .SBSO::after {
     width: 35%;
     left: 30%;
   }
-  .Contact_cont{
+  .Contact_cont {
     padding: 5rem;
   }
-  .Contact_cont .sub_cont1{
+  .Contact_cont .sub_cont1 {
     width: 90%;
   }
-  .Contact_cont .sub_cont1 .head1{
+  .Contact_cont .sub_cont1 .head1 {
     font-size: 38px;
   }
-  .main_con .Contact_desc i{
+  .main_con .Contact_desc i {
     font-size: 30px;
   }
-  .main_con .Contact_desc p{
+  .main_con .Contact_desc p {
     font-size: 18px;
     margin-right: 35px;
   }
-  form{
+  form {
     margin-top: 2rem;
     /* gap: 0.8rem; */
   }
 }
 @media only screen and (max-width: 1000px) {
   .Project_section .project_head::before,
-  .Project_section .project_head::after{
+  .Project_section .project_head::after {
     content: "";
     width: 170px;
     position: absolute;
@@ -59,82 +63,86 @@
     height: 2px;
     background: #222;
   }
-  .project .project_content .project_content_media .media_displayer{
+  .project .project_content .project_content_media .media_displayer {
     height: 450px;
     width: 350px;
   }
-  .Project_section .project_container .project .project_content .project_description{
+  .Project_section
+    .project_container
+    .project
+    .project_content
+    .project_description {
     font-size: 1.1rem;
     padding: 2rem 0rem;
   }
-  .NGO_cont{
+  .NGO_cont {
     gap: 80px;
   }
-  .NGO_cont .SBSO{
-   width: 58%;
-   min-width:58%;
-   height: 70vh;
+  .NGO_cont .SBSO {
+    width: 58%;
+    min-width: 58%;
+    height: 70vh;
   }
-  .NGO_cont .SBSO::after{
+  .NGO_cont .SBSO::after {
     width: 32%;
     left: 31%;
   }
-  .Contact_cont{
+  .Contact_cont {
     margin-top: 50px;
     padding: 4rem;
     margin-bottom: 30px;
   }
-  .Contact_cont .sub_cont1{
+  .Contact_cont .sub_cont1 {
     width: 100%;
   }
-  .Contact_cont .sub_cont1 .head1{
+  .Contact_cont .sub_cont1 .head1 {
     font-size: 36px;
     padding: 1.5rem;
     text-align: center;
   }
-  .Contact_cont .main_con{
+  .Contact_cont .main_con {
     padding-top: 2rem;
   }
-  .main_con .Contact_desc{
+  .main_con .Contact_desc {
     padding: 1rem;
     width: 96%;
   }
-  .main_con .Contact_desc i{
+  .main_con .Contact_desc i {
     font-size: 28px;
   }
-  .main_con .Contact_desc p{
+  .main_con .Contact_desc p {
     font-size: 18px;
     margin-right: 18px;
   }
-  form{
+  form {
     margin-top: 2rem;
     /* gap: 0.8rem; */
   }
-  form .input_cont{
+  form .input_cont {
     width: 46%;
     max-width: 46%;
     margin-bottom: 30px;
   }
-  form .input_cont1{
+  form .input_cont1 {
     width: 50%;
     max-width: 50%;
     margin-bottom: 30px;
   }
-  form .input_cont2{
+  form .input_cont2 {
     margin-bottom: 30px;
   }
-  form label{
+  form label {
     font-size: 18px;
   }
-  form input::placeholder{
+  form input::placeholder {
     font-size: 16px;
   }
-  form textarea::placeholder{
+  form textarea::placeholder {
     font-size: 16px;
   }
-  .submit_btn{
+  .submit_btn {
     width: 7rem;
-    height:2.5rem ;
+    height: 2.5rem;
     font-size: 17px;
     margin-bottom: 30px;
   }
@@ -182,7 +190,7 @@
   .hero_description {
     font-size: 26px;
   }
-  .main_content{
+  .main_content {
     padding-top: 78px;
   }
   .butterfly_section .butterfly_content .butterfly_body {
@@ -192,16 +200,16 @@
   .butterfly_body .wing_content .wing_number {
     font-size: 4rem;
   }
-  .butterfly_content .wing{
+  .butterfly_content .wing {
     height: 230px;
     width: 280px;
     font-size: 1.3rem;
   }
-  .Project_section .project_head{
+  .Project_section .project_head {
     font-size: 2.3rem;
   }
   .Project_section .project_head::before,
-  .Project_section .project_head::after{
+  .Project_section .project_head::after {
     content: "";
     width: 150px;
     position: absolute;
@@ -209,12 +217,11 @@
     height: 2px;
     background: #222;
   }
-  .Project_section .project_container .project .project_title h2{
+  .Project_section .project_container .project .project_title h2 {
     font-size: 1.8rem;
     text-align: center;
-
   }
-  .Project_section .project_container .project .project_content{
+  .Project_section .project_container .project .project_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -223,27 +230,35 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
-  .project .project_content .project_content_media .media_displayer{
+  .project .project_content .project_content_media .media_displayer {
     height: 500px;
     width: 400px;
   }
-  .project .project_content .project_content_media .media_displayer .media_cont{
+  .project
+    .project_content
+    .project_content_media
+    .media_displayer
+    .media_cont {
     min-width: 380px;
   }
-  .Project_section .project_container .project .project_content .project_description{
+  .Project_section
+    .project_container
+    .project
+    .project_content
+    .project_description {
     font-size: 1.2rem;
     padding: 1rem 1rem;
   }
-  
-  .NGO_cont{
+
+  .NGO_cont {
     gap: 75px;
   }
-  .NGO_cont .SBSO{
-   width: 65%;
-   min-width:65%;
-   height: 65vh;
+  .NGO_cont .SBSO {
+    width: 65%;
+    min-width: 65%;
+    height: 65vh;
   }
-  .NGO_cont .SBSO::after{
+  .NGO_cont .SBSO::after {
     width: 32%;
     left: 31%;
   }
@@ -294,40 +309,40 @@
   .butterfly_body .wing_content .wing_number {
     font-size: 3rem;
   }
-  .butterfly_content .wing{
+  .butterfly_content .wing {
     height: 210px;
     width: 260px;
     font-size: 1.2rem;
   }
   .butterfly_content .wing_top_left {
-   transform: translate(38px, 80px);
+    transform: translate(38px, 80px);
   }
   .butterfly_content .wing_top_right {
-   transform: translate(-38px, 80px);
+    transform: translate(-38px, 80px);
   }
   .butterfly_content .wing_bottom_left {
-   transform: translate(38px, -80px);
+    transform: translate(38px, -80px);
   }
   .butterfly_content .wing_bottom_right {
-   transform: translate(-38px, -80px);
+    transform: translate(-38px, -80px);
   }
-  .butterfly_content .wing_top_left:hover{
-   transform: translate(38px, 80px);
+  .butterfly_content .wing_top_left:hover {
+    transform: translate(38px, 80px);
   }
   .butterfly_content .wing_top_right:hover {
-   transform: translate(-38px, 80px);
+    transform: translate(-38px, 80px);
   }
   .butterfly_content .wing_bottom_left:hover {
-   transform: translate(38px, -80px);
+    transform: translate(38px, -80px);
   }
   .butterfly_content .wing_bottom_right:hover {
-   transform: translate(-38px, -80px);
+    transform: translate(-38px, -80px);
   }
-  .Project_section .project_head{
+  .Project_section .project_head {
     font-size: 2.1rem;
   }
   .Project_section .project_head::before,
-  .Project_section .project_head::after{
+  .Project_section .project_head::after {
     content: "";
     width: 130px;
     position: absolute;
@@ -335,12 +350,11 @@
     height: 2px;
     background: #222;
   }
-  .Project_section .project_container .project .project_title h2{
+  .Project_section .project_container .project .project_title h2 {
     font-size: 1.7rem;
     text-align: center;
-
   }
-  .Project_section .project_container .project .project_content{
+  .Project_section .project_container .project .project_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -349,92 +363,99 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
-  .project .project_content .project_content_media .media_displayer{
+  .project .project_content .project_content_media .media_displayer {
     height: 480px;
     width: 380px;
   }
-  .project .project_content .project_content_media .media_displayer .media_cont{
+  .project
+    .project_content
+    .project_content_media
+    .media_displayer
+    .media_cont {
     min-width: 355px;
   }
-  .Project_section .project_container .project .project_content .project_description{
+  .Project_section
+    .project_container
+    .project
+    .project_content
+    .project_description {
     font-size: 1.2rem;
     padding: 1rem 1rem;
   }
-  .NGO_cont{
+  .NGO_cont {
     gap: 70px;
     margin-bottom: 80px;
   }
-  .NGO_cont .SBSO{
-   width: 60%;
-   min-width:60%;
-   height: 60vh;
+  .NGO_cont .SBSO {
+    width: 60%;
+    min-width: 60%;
+    height: 60vh;
   }
   /* .SBSO::after{
     width: 32%;
     left: 31%;
   } */
-  .Contact_cont{
+  .Contact_cont {
     margin-top: 50px;
     padding: 3rem;
     margin-bottom: 30px;
   }
-  .Contact_cont .sub_cont1{
+  .Contact_cont .sub_cont1 {
     width: 100%;
   }
-  .Contact_cont .sub_cont1 .head1{
+  .Contact_cont .sub_cont1 .head1 {
     font-size: 32px;
     padding: 1.5rem;
   }
-  .Contact_cont .main_con{
+  .Contact_cont .main_con {
     padding-top: 2rem;
   }
-  .main_con .Contact_desc{
+  .main_con .Contact_desc {
     padding: 1rem;
     width: 96%;
   }
-  .main_con .Contact_desc i{
+  .main_con .Contact_desc i {
     font-size: 26px;
   }
-  .main_con .Contact_desc p{
+  .main_con .Contact_desc p {
     font-size: 16px;
     margin-right: 16px;
   }
-  form{
+  form {
     margin-top: 2rem;
     /* gap: 0.8rem; */
   }
-  form .input_cont{
+  form .input_cont {
     width: 46%;
     max-width: 46%;
     margin-bottom: 30px;
   }
-  form .input_cont1{
+  form .input_cont1 {
     width: 50%;
     max-width: 50%;
     margin-bottom: 30px;
   }
-  form .input_cont2{
+  form .input_cont2 {
     margin-bottom: 30px;
-
   }
-  form label{
+  form label {
     font-size: 16px;
   }
-  form input::placeholder{
+  form input::placeholder {
     font-size: 14px;
   }
-  form textarea::placeholder{
+  form textarea::placeholder {
     font-size: 14px;
   }
-  .submit_btn{
+  .submit_btn {
     width: 6rem;
-    height:2.5rem ;
+    height: 2.5rem;
     font-size: 15px;
     margin-bottom: 20px;
   }
-  .popup.active{
-   top: 50%;
-   transform: translate(-52%,-40%);
+  .popup.active {
+    top: 50%;
+    transform: translate(-52%, -40%);
   }
 }
 @media only screen and (max-width: 730px) {
@@ -468,41 +489,59 @@
   .butterfly_body .wing_content .wing_text {
     font-size: 17px;
   }
-  .butterfly_content .wing{
+  .butterfly_content .wing {
     height: 190px;
     width: 240px;
     font-size: 1.1rem;
   }
   .butterfly_content .wing_top_left {
-   transform: translate(38px, 70px);
+    transform: translate(38px, 70px);
   }
   .butterfly_content .wing_top_right {
-   transform: translate(-38px, 70px);
+    transform: translate(-38px, 70px);
   }
   .butterfly_content .wing_bottom_left {
-   transform: translate(38px, -70px);
+    transform: translate(38px, -70px);
   }
   .butterfly_content .wing_bottom_right {
-   transform: translate(-38px, -70px);
+    transform: translate(-38px, -70px);
   }
   .butterfly_content .wing_top_left:hover {
-   transform: translate(38px, 70px);
+    transform: translate(38px, 70px);
   }
   .butterfly_content .wing_top_right:hover {
-   transform: translate(-38px, 70px);
+    transform: translate(-38px, 70px);
   }
   .butterfly_content .wing_bottom_left:hover {
-   transform: translate(38px, -70px);
+    transform: translate(38px, -70px);
   }
   .butterfly_content .wing_bottom_right:hover {
-   transform: translate(-38px, -70px);
+    transform: translate(-38px, -70px);
   }
-  .Contact_cont{
+  .Contact_cont {
     padding: 3rem;
   }
-  .popup.active{
-   top: 50%;
-   transform: translate(-50%,-65%);
+  .popup.active {
+    top: 50%;
+    transform: translate(-50%, -65%);
+  }
+  .popup {
+    width: 21rem;
+    height: 17rem;
+  }
+  .popup .popup_icon {
+    font-size: 38px;
+  }
+  .popup .popup_title {
+    font-size: 28px;
+  }
+  .popup .popup_desc {
+    font-size: 16px;
+  }
+  .popup .dismiss_btn button {
+    height: 2.5rem;
+    width: 5rem;
+    font-size: 16px;
   }
 }
 @media only screen and (max-width: 687px) {
@@ -527,40 +566,40 @@
   .butterfly_body .wing_content .wing_text {
     font-size: 16px;
   }
-  .butterfly_content .wing{
+  .butterfly_content .wing {
     height: 170px;
     width: 220px;
     font-size: 1rem;
   }
   .butterfly_content .wing_top_left {
-   transform: translate(38px, 60px);
+    transform: translate(38px, 60px);
   }
   .butterfly_content .wing_top_right {
-   transform: translate(-38px, 60px);
+    transform: translate(-38px, 60px);
   }
   .butterfly_content .wing_bottom_left {
-   transform: translate(38px, -60px);
+    transform: translate(38px, -60px);
   }
   .butterfly_content .wing_bottom_right {
-   transform: translate(-38px, -60px);
+    transform: translate(-38px, -60px);
   }
   .butterfly_content .wing_top_left:hover {
-   transform: translate(38px, 60px);
+    transform: translate(38px, 60px);
   }
   .butterfly_content .wing_top_right:hover {
-   transform: translate(-38px, 60px);
+    transform: translate(-38px, 60px);
   }
   .butterfly_content .wing_bottom_left:hover {
-   transform: translate(38px, -60px);
+    transform: translate(38px, -60px);
   }
   .butterfly_content .wing_bottom_right:hover {
-   transform: translate(-38px, -60px);
+    transform: translate(-38px, -60px);
   }
-  .Project_section .project_head{
+  .Project_section .project_head {
     font-size: 2rem;
   }
   .Project_section .project_head::before,
-  .Project_section .project_head::after{
+  .Project_section .project_head::after {
     content: "";
     width: 100px;
     position: absolute;
@@ -568,41 +607,49 @@
     height: 2px;
     background: #222;
   }
-  .Project_section .project_container .project .project_title h2{
+  .Project_section .project_container .project .project_title h2 {
     font-size: 1.6rem;
     text-align: center;
   }
-  .Project_section .project_container .project .project_content{
+  .Project_section .project_container .project .project_content {
     gap: 1rem;
   }
-  .project .project_content .project_content_media .media_displayer{
+  .project .project_content .project_content_media .media_displayer {
     height: 460px;
     width: 360px;
   }
-  .project .project_content .project_content_media .media_displayer .media_cont{
+  .project
+    .project_content
+    .project_content_media
+    .media_displayer
+    .media_cont {
     min-width: 335px;
   }
-  .project .project_content .project_content_media .swipe_btn{
+  .project .project_content .project_content_media .swipe_btn {
     font-size: 19px;
     height: 34px;
     width: 34px;
   }
-  .Project_section .project_container .project .project_content .project_description{
+  .Project_section
+    .project_container
+    .project
+    .project_content
+    .project_description {
     font-size: 1.1rem;
     padding: 3rem 0rem;
   }
-  .NGO_cont{
+  .NGO_cont {
     gap: 65px;
   }
-  .NGO_cont .SBSO{
-   width: 65%;
-   min-width:65%;
-   height: 60vh;
+  .NGO_cont .SBSO {
+    width: 65%;
+    min-width: 65%;
+    height: 60vh;
   }
-  form input::placeholder{
+  form input::placeholder {
     font-size: 14px;
   }
-  form textarea::placeholder{
+  form textarea::placeholder {
     font-size: 14px;
   }
 }
@@ -623,41 +670,41 @@
   .butterfly_body .wing_content .wing_text {
     font-size: 14px;
   }
-  .butterfly_content .wing{
+  .butterfly_content .wing {
     height: 150px;
     width: 200px;
     font-size: 0.9rem;
   }
   .butterfly_content .wing_top_left {
-   transform: translate(38px, 50px);
+    transform: translate(38px, 50px);
   }
   .butterfly_content .wing_top_right {
-   transform: translate(-38px, 50px);
+    transform: translate(-38px, 50px);
   }
   .butterfly_content .wing_bottom_left {
-   transform: translate(38px, -50px);
+    transform: translate(38px, -50px);
   }
   .butterfly_content .wing_bottom_right {
-   transform: translate(-38px, -50px);
+    transform: translate(-38px, -50px);
   }
   .butterfly_content .wing_top_left:hover {
-   transform: translate(38px, 50px);
+    transform: translate(38px, 50px);
   }
   .butterfly_content .wing_top_right:hover {
-   transform: translate(-38px, 50px);
+    transform: translate(-38px, 50px);
   }
   .butterfly_content .wing_bottom_left:hover {
-   transform: translate(38px, -50px);
+    transform: translate(38px, -50px);
   }
   .butterfly_content .wing_bottom_right:hover {
-   transform: translate(-38px, -50px);
+    transform: translate(-38px, -50px);
   }
-  .Project_section .project_head{
+  .Project_section .project_head {
     font-size: 1.8rem;
     margin-bottom: 4rem;
   }
   .Project_section .project_head::before,
-  .Project_section .project_head::after{
+  .Project_section .project_head::after {
     content: "";
     width: 80px;
     position: absolute;
@@ -665,97 +712,104 @@
     height: 2px;
     background: #222;
   }
-  .Project_section .project_container .project .project_title h2{
+  .Project_section .project_container .project .project_title h2 {
     font-size: 1.4rem;
     text-align: center;
   }
-  .project .project_content .project_content_media .media_displayer{
+  .project .project_content .project_content_media .media_displayer {
     height: 440px;
     width: 340px;
   }
-  .project .project_content .project_content_media .media_displayer .media_cont{
+  .project
+    .project_content
+    .project_content_media
+    .media_displayer
+    .media_cont {
     min-width: 315px;
   }
-  .project .project_content .project_content_media .swipe_btn{
+  .project .project_content .project_content_media .swipe_btn {
     font-size: 18px;
     height: 33px;
     width: 33px;
   }
-  .Project_section .project_container .project .project_content .project_description{
+  .Project_section
+    .project_container
+    .project
+    .project_content
+    .project_description {
     font-size: 1rem;
     padding: 3rem 0rem;
   }
-  .NGO_cont{
+  .NGO_cont {
     gap: 60px;
   }
-  .NGO_cont .SBSO{
-   width: 70%;
-   min-width:70%;
-   height: 55vh;
+  .NGO_cont .SBSO {
+    width: 70%;
+    min-width: 70%;
+    height: 55vh;
   }
-  .Contact_cont{
+  .Contact_cont {
     margin-top: 50px;
     padding: 2rem;
     margin-bottom: 30px;
   }
-  .Contact_cont .sub_cont1{
+  .Contact_cont .sub_cont1 {
     width: 100%;
   }
-  .Contact_cont .sub_cont1 .head1{
+  .Contact_cont .sub_cont1 .head1 {
     font-size: 30px;
     padding: 1.5rem;
   }
-  .Contact_cont .main_con{
+  .Contact_cont .main_con {
     padding-top: 1.5rem;
   }
-  .main_con .Contact_desc{
+  .main_con .Contact_desc {
     padding: 1rem;
     width: 96%;
   }
-  .main_con .Contact_desc i{
+  .main_con .Contact_desc i {
     font-size: 24px;
   }
-  .main_con .Contact_desc p{
+  .main_con .Contact_desc p {
     font-size: 14px;
     margin-right: 14px;
   }
-  form{
+  form {
     margin-top: 2rem;
     /* gap: 0.8rem; */
   }
-  form .input_cont{
+  form .input_cont {
     width: 46%;
     max-width: 46%;
     margin-bottom: 30px;
   }
-  form .input_cont1{
+  form .input_cont1 {
     width: 50%;
     max-width: 50%;
     margin-bottom: 30px;
   }
-  form .input_cont2{
+  form .input_cont2 {
     margin-bottom: 30px;
-
   }
-  form label{
+  form label {
     font-size: 15px;
   }
-  form input::placeholder{
+  form input::placeholder {
     font-size: 13px;
   }
-  form textarea::placeholder{
+  form textarea::placeholder {
     font-size: 13px;
   }
-  .submit_btn{
+  .submit_btn {
     width: 6rem;
-    height:2.4rem ;
+    height: 2.4rem;
     font-size: 12px;
     margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 520px) {
   .Project_section .project_head::before,
-  .Project_section .project_head::after{
+  .Project_section .project_head::after {
     content: "";
     width: 60px;
     position: absolute;
@@ -763,13 +817,31 @@
     height: 2px;
     background: #222;
   }
-  .NGO_cont{
+  .NGO_cont {
     gap: 55px;
   }
-  .SBSO{
-   width: 70%;
-   min-width:70%;
-   height: 50vh;
+  .SBSO {
+    width: 70%;
+    min-width: 70%;
+    height: 50vh;
+  }
+  .popup {
+    width: 17rem;
+    height: 16rem;
+  }
+  .popup .popup_icon {
+    font-size: 34px;
+  }
+  .popup .popup_title {
+    font-size: 24px;
+  }
+  .popup .popup_desc {
+    font-size: 11.5px;
+  }
+  .popup .dismiss_btn button {
+    height: 2rem;
+    width: 4.5rem;
+    font-size: 14px;
   }
 }
 @media only screen and (max-width: 488px) {
@@ -812,41 +884,41 @@
   .butterfly_body .wing_content .wing_text {
     font-size: 10px;
   }
-  .butterfly_content .wing{
+  .butterfly_content .wing {
     height: 110px;
     width: 150px;
     font-size: 0.7rem;
   }
   .butterfly_content .wing_top_left {
-   transform: translate(40px, 30px);
+    transform: translate(40px, 30px);
   }
   .butterfly_content .wing_top_right {
-   transform: translate(-40px, 30px);
+    transform: translate(-40px, 30px);
   }
   .butterfly_content .wing_bottom_left {
-   transform: translate(40px, -30px);
+    transform: translate(40px, -30px);
   }
   .butterfly_content .wing_bottom_right {
-   transform: translate(-40px, -30px);
+    transform: translate(-40px, -30px);
   }
   .butterfly_content .wing_top_left:hover {
-   transform: translate(40px, 30px);
+    transform: translate(40px, 30px);
   }
   .butterfly_content .wing_top_right:hover {
-   transform: translate(-40px, 30px);
+    transform: translate(-40px, 30px);
   }
   .butterfly_content .wing_bottom_left:hover {
-   transform: translate(40px, -30px);
+    transform: translate(40px, -30px);
   }
   .butterfly_content .wing_bottom_right:hover {
-   transform: translate(-40px, -30px);
+    transform: translate(-40px, -30px);
   }
-  .Project_section .project_head{
+  .Project_section .project_head {
     font-size: 1.6rem;
     margin-bottom: 3rem;
   }
   .Project_section .project_head::before,
-  .Project_section .project_head::after{
+  .Project_section .project_head::after {
     content: "";
     width: 50px;
     position: absolute;
@@ -854,102 +926,109 @@
     height: 2px;
     background: #222;
   }
-  .Project_section .project_container .project .project_title h2{
+  .Project_section .project_container .project .project_title h2 {
     font-size: 1.3rem;
     text-align: center;
   }
-  .project .project_content .project_content_media .media_displayer{
+  .project .project_content .project_content_media .media_displayer {
     height: 400px;
     width: 300px;
   }
-  .project .project_content .project_content_media .media_displayer .media_cont{
+  .project
+    .project_content
+    .project_content_media
+    .media_displayer
+    .media_cont {
     min-width: 275px;
   }
-  .project .project_content .project_content_media .swipe_btn{
+  .project .project_content .project_content_media .swipe_btn {
     font-size: 18px;
     height: 32px;
     width: 32px;
   }
-  .Project_section .project_container .project .project_content .project_description{
+  .Project_section
+    .project_container
+    .project
+    .project_content
+    .project_description {
     font-size: 0.9rem;
     padding: 3rem 0rem;
     width: 100%;
   }
-  .NGO_cont{
+  .NGO_cont {
     gap: 55px;
   }
-  .NGO_cont .SBSO{
-   width: 70%;
-   min-width:70%;
-   height: 50vh;
+  .NGO_cont .SBSO {
+    width: 70%;
+    min-width: 70%;
+    height: 50vh;
   }
-  .Contact_cont{
+  .Contact_cont {
     margin-top: 50px;
     padding: 2rem;
     margin-bottom: 30px;
   }
-  .Contact_cont .sub_cont1{
+  .Contact_cont .sub_cont1 {
     width: 100%;
   }
-  .Contact_cont .sub_cont1 .head1{
+  .Contact_cont .sub_cont1 .head1 {
     font-size: 28px;
     padding: 1.5rem;
   }
-  .Contact_cont .main_con{
+  .Contact_cont .main_con {
     padding-top: 1.5rem;
   }
-  .main_con .Contact_desc{
+  .main_con .Contact_desc {
     padding: 1rem;
     width: 96%;
   }
-  .main_con .Contact_desc i{
+  .main_con .Contact_desc i {
     font-size: 22px;
   }
-  .main_con .Contact_desc p{
+  .main_con .Contact_desc p {
     font-size: 12px;
     margin-right: 12px;
   }
-  form{
+  form {
     margin-top: 2rem;
     /* gap: 0.8rem; */
   }
-  form .input_cont{
+  form .input_cont {
     width: 46%;
     max-width: 46%;
     margin-bottom: 30px;
   }
-  form .input_cont1{
+  form .input_cont1 {
     width: 50%;
     max-width: 50%;
     margin-bottom: 30px;
   }
-  form .input_cont2{
+  form .input_cont2 {
     margin-bottom: 30px;
-
   }
-  form label{
+  form label {
     font-size: 14px;
   }
-  form input::placeholder{
+  form input::placeholder {
     font-size: 12px;
   }
-  form textarea::placeholder{
+  form textarea::placeholder {
     font-size: 12px;
   }
-  .submit_btn{
+  .submit_btn {
     width: 6rem;
-    height:2.5rem ;
+    height: 2.5rem;
     font-size: 12px;
     margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 400px) {
-  .Project_section .project_head{
+  .Project_section .project_head {
     font-size: 1.3rem;
     margin-bottom: 3rem;
   }
   .Project_section .project_head::before,
-  .Project_section .project_head::after{
+  .Project_section .project_head::after {
     content: "";
     width: 40px;
     position: absolute;
@@ -957,87 +1036,95 @@
     height: 2px;
     background: #222;
   }
-  .Project_section .project_container .project .project_title h2{
+  .Project_section .project_container .project .project_title h2 {
     font-size: 1.1rem;
     text-align: center;
   }
-  .project .project_content .project_content_media .media_displayer{
+  .project .project_content .project_content_media .media_displayer {
     height: 360px;
     width: 260px;
   }
-  .project .project_content .project_content_media .media_displayer .media_cont{
+  .project
+    .project_content
+    .project_content_media
+    .media_displayer
+    .media_cont {
     min-width: 240px;
   }
-  .project .project_content .project_content_media .swipe_btn{
+  .project .project_content .project_content_media .swipe_btn {
     font-size: 15px;
     height: 30px;
     width: 30px;
   }
-  .Project_section .project_container .project .project_content .project_description{
+  .Project_section
+    .project_container
+    .project
+    .project_content
+    .project_description {
     font-size: 0.8rem;
     padding: 2rem 0rem;
     width: 100%;
     margin: auto;
   }
-  .NGO_cont{
+  .NGO_cont {
     gap: 50px;
     margin-bottom: 60px;
   }
-  .NGO_cont .SBSO{
-   width: 70%;
-   min-width:70%;
-   height: 45vh;
+  .NGO_cont .SBSO {
+    width: 70%;
+    min-width: 70%;
+    height: 45vh;
   }
-  .Contact_cont{
+  .Contact_cont {
     margin-top: 50px;
     padding: 1rem;
     margin-bottom: 30px;
   }
-  .Contact_cont .sub_cont1{
+  .Contact_cont .sub_cont1 {
     width: 100%;
   }
-  .Contact_cont .sub_cont1 .head1{
+  .Contact_cont .sub_cont1 .head1 {
     font-size: 26px;
     padding: 1rem;
   }
-  .Contact_cont .main_con{
+  .Contact_cont .main_con {
     padding-top: 1.5rem;
   }
-  .main_con .Contact_desc{
+  .main_con .Contact_desc {
     padding: 0.8rem;
     width: 96%;
   }
-  .main_con .Contact_desc i{
+  .main_con .Contact_desc i {
     font-size: 20px;
   }
-  .main_con .Contact_desc p{
+  .main_con .Contact_desc p {
     font-size: 10px;
     margin-right: 10px;
   }
-  form{
+  form {
     margin-top: 2rem;
     /* gap: 0.8rem; */
   }
-  form .input_cont{
+  form .input_cont {
     width: 46%;
     max-width: 46%;
   }
-  form .input_cont1{
+  form .input_cont1 {
     width: 50%;
     max-width: 50%;
   }
-  form label{
+  form label {
     font-size: 13px;
   }
-  form input::placeholder{
+  form input::placeholder {
     font-size: 10px;
   }
-  form textarea::placeholder{
+  form textarea::placeholder {
     font-size: 10px;
   }
-  .submit_btn{
+  .submit_btn {
     width: 5rem;
-    height:2rem ;
+    height: 2rem;
     font-size: 11px;
   }
 }

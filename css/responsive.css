@@ -274,7 +274,7 @@
   }
   .head .sidebar i {
     border-radius: 5px;
-    border: 1px solid var(--head_textcolor);
+    border: 1px solid var(--body_textcolor);
   }
   .head .logo {
     height: 70px;

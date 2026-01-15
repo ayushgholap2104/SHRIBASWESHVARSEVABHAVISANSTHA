@@ -382,10 +382,14 @@
     font-size: 1.2rem;
     padding: 1rem 1rem;
   }
+  .aboutContent{
+    padding-bottom: 0px;
+  }
   .NGO_cont {
     gap: 70px;
-    margin-bottom: 80px;
+    padding-bottom: 70px;
   }
+
   .NGO_cont .SBSO {
     width: 60%;
     min-width: 60%;
@@ -1100,7 +1104,7 @@
   }
   .NGO_cont {
     gap: 50px;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
   }
   .NGO_cont .SBSO {
     width: 70%;

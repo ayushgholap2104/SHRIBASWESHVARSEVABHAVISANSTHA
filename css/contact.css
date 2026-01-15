@@ -11,6 +11,7 @@
   --bg_color:#27292d;
   --vision_bg: #1f2024;
   --contact_bg:#1f2024;
+  --border-color:1px solid rgba(79, 79, 79, 0.877);
 }
 body{
   --body_textcolor: #333;
@@ -21,6 +22,7 @@ body{
   --hero_btncolor: #c32921;
   --vision_bg: #eef3f9;
   --theme_color:#c32921;
+  --border-color:1px solid rgba(159, 159, 159, 0.877);
 }
 body,main{
   overflow-x: clip;
@@ -154,12 +156,12 @@ body{
   margin-top: 40px;
   border-radius: 2px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-  border: 1px solid rgba(159, 159, 159, 0.877);
+  border: var(--border-color);
   background-color: var(--contact_bg);
 }
 .Contact_cont .sub_cont1 .head1{
   padding: 1.5rem;
-  border-bottom: 1px solid rgba(159, 159, 159, 0.877);
+  border-bottom: var(--border-color);
   font-size: 40px;
   color: var(--body_textcolor);
 }
@@ -216,7 +218,7 @@ form .input_cont{
 }
 form .input_cont #name{
   outline: none;
-  height: 2.5rem;
+  height: 2.4rem;
   border: 0.05rem solid #0000001a;
   display: flex;
   align-items: center;
@@ -243,7 +245,7 @@ form .input_cont1{
 }
 form .input_cont1 #email{
   outline: none;
-  height: 2.5rem;
+  height: 2.4rem;
   border: 0.05rem solid #0000001a;
   display: flex;
   align-items: center;
@@ -269,7 +271,7 @@ form .input_cont2{
 }
 form .input_cont2 #subject{
   outline: none;
-  height: 2.5rem;
+  height: 2.4rem;
   border: 0.05rem solid #0000001a;
   display: flex;
   align-items: center;
@@ -334,7 +336,7 @@ form .input_cont3 #message:hover{
 .submit_btn:hover{
   cursor: pointer;
   background-color: #fe7302;
-  color: var(--primary-color1);
+  color: #fff;
 }
 .popup{
   background-color: #ffdfb8f7;

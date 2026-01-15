@@ -6,6 +6,7 @@ window.addEventListener("load", () => {
   sidebarIcon.addEventListener('click', () => {
     sidebarMenu.classList.toggle('active')
   })
+  toggle_theme()
 })
 const form = document.getElementById('contact_form')
 async function feedback_msg(event){
@@ -37,3 +38,17 @@ const close_btn = document.getElementById('close_btn')
 close_btn.addEventListener('click',()=>{
   document.querySelector('.popup').classList.remove('active')
 })
+
+function toggle_theme(){
+  const body = document.body
+  const icon = document.getElementById('icon')
+  body.classList.toggle('dark_theme')
+
+  if (body.classList.contains('dark_theme')){
+    icon.classList.replace('bi-brightness-high-fill','bi-moon-fill')
+    document.documentElement.classList.add('dark_theme')
+  }else{
+    icon.classList.replace('bi-moon-fill','bi-brightness-high-fill')
+    document.documentElement.classList.remove('dark_theme')
+  }
+}

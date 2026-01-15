@@ -5,20 +5,21 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-:root {
-  --head_textcolor: #333;
-  --head_bgcolor: #cad8db59;
+.dark_theme{
+  --body_color: #333;
+  --body_textcolor: #fff;
+  --bg_color:#27292d;
+  --vision_bg: #1f2024;
 }
-body {
-  --head_textcolor: #333;
-  --head_bgcolor: #e1e1e1f1;
+body{
+  --body_textcolor: #333;
+  --body_color: #e1e1e1f1;
   --sidebar_bgcolor: #000000e0;
   --sidebar_textcolor: #f5f5f5;
-  --hero_bgcolor: #f2f2ee;
   --hero_titlecolor: #c94a9a;
   --hero_btncolor: #c32921;
   --vision_bg: #eef3f9;
-  --theme_color:#757575;
+  --theme_color:#c32921;
 }
 body,main{
   overflow-x: clip;
@@ -30,8 +31,8 @@ body{
 
 .head {
   padding: 0.3rem;
-  color: var(--head_textcolor);
-  background-color: var(--head_bgcolor);
+  color: var(--body_textcolor);
+  background-color: var(--body_color);
   align-items: center;
   display: flex;
   align-items: center;
@@ -86,7 +87,7 @@ body{
 }
 .head .head_cont2 a {
   text-decoration: none;
-  color: var(--head_textcolor);
+  color: var(--body_textcolor);
   font-weight: 700;
   font-size: 18px;
 }
@@ -109,7 +110,7 @@ body{
   width: 0;
   border-radius: 5px;
   transition: width 0.4s ease-in;
-  background-color: var(--head_textcolor);
+  background-color: var(--body_textcolor);
 }
 .head_cont2 .panel:hover::after {
   width: 105%;
@@ -119,14 +120,14 @@ body{
   bottom: -7px;
   left: 0;
   height: 3px;
-  background-color: var(--head_textcolor);
+  background-color: var(--body_textcolor);
   position: absolute;
   width: 105%;
   border-radius: 5px;
   transition: width 0.4s ease-in;
 }
 .head_cont2 .panel.active {
-  color: var(--head_textcolor);
+  color: var(--body_textcolor);
   font-weight: 800;
 }
 
@@ -139,7 +140,10 @@ body{
 }
 .aboutContent{
   width: 100%;
-  margin-top: 120px;
+  height: 100%;
+  background-color: var(--bg_color);
+  padding-top: 120px;
+  padding-bottom: 80px;
 }
 .NGO_cont{
   height: 100%;
@@ -149,7 +153,6 @@ body{
   justify-content: center;
   gap: 100px;
   flex-direction: column;
-  margin-bottom: 100px;
 }
 .NGO_cont .SBSO{
   width: 50%;

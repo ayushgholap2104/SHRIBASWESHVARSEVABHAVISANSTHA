@@ -64,8 +64,15 @@
     background: #222;
   }
   .project .project_content .project_content_media .media_displayer {
-    height: 450px;
-    width: 350px;
+    height: 430px;
+    width: 340px;
+  }
+  .project
+    .project_content
+    .project_content_media
+    .media_displayer
+    .media_cont {
+    min-width: 320px;
   }
   .Project_section
     .project_container
@@ -88,9 +95,8 @@
     left: 31%;
   }
   .Contact_cont {
-    margin-top: 50px;
+    padding-top: 50px;
     padding: 4rem;
-    margin-bottom: 30px;
   }
   .Contact_cont .sub_cont1 {
     width: 100%;
@@ -231,15 +237,15 @@
     padding-bottom: 3rem;
   }
   .project .project_content .project_content_media .media_displayer {
-    height: 500px;
-    width: 400px;
+    height: 410px;
+    width: 350px;
   }
   .project
     .project_content
     .project_content_media
     .media_displayer
     .media_cont {
-    min-width: 380px;
+    min-width: 320px;
   }
   .Project_section
     .project_container
@@ -364,15 +370,15 @@
     padding-bottom: 3rem;
   }
   .project .project_content .project_content_media .media_displayer {
-    height: 480px;
-    width: 380px;
+    height: 390px;
+    width: 330px;
   }
   .project
     .project_content
     .project_content_media
     .media_displayer
     .media_cont {
-    min-width: 355px;
+    min-width: 310px;
   }
   .Project_section
     .project_container
@@ -402,7 +408,6 @@
   .Contact_cont {
     margin-top: 50px;
     padding: 3rem;
-    margin-bottom: 30px;
   }
   .Contact_cont .sub_cont1 {
     width: 100%;
@@ -434,13 +439,22 @@
     max-width: 46%;
     margin-bottom: 30px;
   }
+  form .input_cont #name{
+    height: 2.3rem;
+  }
   form .input_cont1 {
     width: 50%;
     max-width: 50%;
     margin-bottom: 30px;
   }
+  form .input_cont1 #email{
+    height: 2.3rem;
+  }
   form .input_cont2 {
     margin-bottom: 30px;
+  }
+  form .input_cont2 #subject{
+    height: 2.3rem;
   }
   form label {
     font-size: 16px;
@@ -635,15 +649,15 @@
     gap: 1rem;
   }
   .project .project_content .project_content_media .media_displayer {
-    height: 460px;
-    width: 360px;
+    height: 370px;
+    width: 310px;
   }
   .project
     .project_content
     .project_content_media
     .media_displayer
     .media_cont {
-    min-width: 335px;
+    min-width: 290px;
   }
   .project .project_content .project_content_media .swipe_btn {
     font-size: 19px;
@@ -732,15 +746,15 @@
     text-align: center;
   }
   .project .project_content .project_content_media .media_displayer {
-    height: 440px;
-    width: 340px;
+    height: 360px;
+    width: 300px;
   }
   .project
     .project_content
     .project_content_media
     .media_displayer
     .media_cont {
-    min-width: 315px;
+    min-width: 280px;
   }
   .project .project_content .project_content_media .swipe_btn {
     font-size: 18px;
@@ -764,9 +778,8 @@
     height: 55vh;
   }
   .Contact_cont {
-    margin-top: 50px;
     padding: 2rem;
-    margin-bottom: 30px;
+    padding-bottom: 50px;
   }
   .Contact_cont .sub_cont1 {
     width: 100%;
@@ -798,13 +811,22 @@
     max-width: 46%;
     margin-bottom: 30px;
   }
+  form .input_cont #name{
+    height: 2.2rem;
+  }
   form .input_cont1 {
     width: 50%;
     max-width: 50%;
     margin-bottom: 30px;
   }
+  form .input_cont1 #email {
+    height: 2.2rem;
+  }
   form .input_cont2 {
     margin-bottom: 30px;
+  }
+  form .input_cont2 #subject {
+    height: 2.2rem;
   }
   form label {
     font-size: 15px;
@@ -941,7 +963,7 @@
     transform: translate(-40px, -30px);
   }
   .Project_section .project_head {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     margin-bottom: 4rem;
   }
   .Project_section .project_head::before,
@@ -949,19 +971,19 @@
     display: none;
   }
   .Project_section .project_container .project .project_title h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-align: center;
   }
   .project .project_content .project_content_media .media_displayer {
-    height: 400px;
-    width: 300px;
+    height: 340px;
+    width: 280px;
   }
   .project
     .project_content
     .project_content_media
     .media_displayer
     .media_cont {
-    min-width: 275px;
+    min-width: 260px;
   }
   .project .project_content .project_content_media .swipe_btn {
     font-size: 18px;
@@ -986,9 +1008,7 @@
     height: 50vh;
   }
   .Contact_cont {
-    margin-top: 50px;
     padding: 2rem;
-    margin-bottom: 30px;
   }
   .Contact_cont .sub_cont1 {
     width: 100%;
@@ -1046,7 +1066,7 @@
 }
 @media only screen and (max-width: 450px) {
   .Project_section .project_head {
-    font-size: 1.55rem;
+    font-size: 1.8rem;
     margin-bottom: 4rem;
   }
   .Project_section .project_head::before,
@@ -1054,13 +1074,13 @@
     display: none;
   }
   .Project_section .project_container .project .project_title h2 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     text-align: center;
   }
 }
 @media only screen and (max-width: 400px) {
   .Project_section .project_head {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     margin-bottom: 3rem;
   }
   .Project_section .project_head::before,
@@ -1073,11 +1093,11 @@
     background: #222;
   }
   .Project_section .project_container .project .project_title h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
   }
   .project .project_content .project_content_media .media_displayer {
-    height: 360px;
+    height: 320px;
     width: 260px;
   }
   .project
@@ -1114,7 +1134,7 @@
   .Contact_cont {
     margin-top: 50px;
     padding: 1rem;
-    margin-bottom: 30px;
+    padding-bottom: 40px;
   }
   .Contact_cont .sub_cont1 {
     width: 100%;

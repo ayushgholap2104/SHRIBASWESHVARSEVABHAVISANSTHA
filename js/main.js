@@ -1,14 +1,16 @@
 window.addEventListener("load", () => {
+  sidebarpop()
+  functions.mediadataBinding()
+})
 
+function sidebarpop(){
   const sidebarIcon = document.querySelector('.sidebar')
   const sidebarMenu = document.querySelector('.side_menu')
 
   sidebarIcon.addEventListener('click', () => {
     sidebarMenu.classList.toggle('active')
   })
-  functions.mediadataBinding()
-  toggle_theme()
-})
+}
 
 const functions = {
   mediadataBinding: function () {
@@ -434,17 +436,4 @@ function themeColor(project){
 
   project.style.setProperty('--theme_color', randomColors)
   previousColor = randomColors
-}
-function toggle_theme(){
-  const body = document.body
-  const icon = document.getElementById('icon')
-  body.classList.toggle('dark_theme')
-
-  if (body.classList.contains('dark_theme')){
-    icon.classList.replace('bi-brightness-high-fill','bi-moon-fill')
-    document.documentElement.classList.add('dark_theme')
-  }else{
-    icon.classList.replace('bi-moon-fill','bi-brightness-high-fill')
-    document.documentElement.classList.remove('dark_theme')
-  }
 }

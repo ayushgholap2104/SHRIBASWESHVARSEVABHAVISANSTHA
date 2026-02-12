@@ -34,7 +34,7 @@ body{
   position: fixed;
   right: 20px;
   background-color: #fff;
-  bottom: 20px; 
+  bottom: 25px; 
   opacity: 1;
   transition: opacity 0.6s ease;
   border-radius: 50%;

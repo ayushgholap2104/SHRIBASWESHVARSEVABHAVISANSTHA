@@ -49,7 +49,6 @@ body{
 .btn_up:hover{
   cursor: pointer;
 }
-
 .head {
   padding: 0.3rem;
   color: var(--body_textcolor);

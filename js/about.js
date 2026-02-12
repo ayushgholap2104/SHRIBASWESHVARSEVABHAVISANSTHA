@@ -1,7 +1,27 @@
 window.addEventListener("load", () => {
   sidebarpop()
   functions.aboutDatabinding()
+  up_btn()
 })
+
+function up_btn(){
+  const btn_up = document.querySelector('#btn-up')
+  btn_up.addEventListener('click', () =>{
+    window.scrollTo({top:0 , behavior:'smooth' })
+  })
+
+  window.addEventListener('scroll',() =>{
+    const scrollY = window.scrollY
+    if (scrollY == 0){
+      btn_up.style.opacity = '0'
+      btn_up.style.pointerEvents = 'none'
+    }else{
+      btn_up.style.opacity = '1'
+      btn_up.style.pointerEvents = 'auto'
+    }
+
+  })
+}
 
 function sidebarpop(){
   const sidebarIcon = document.querySelector('.sidebar')

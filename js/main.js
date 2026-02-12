@@ -1,6 +1,7 @@
 window.addEventListener("load", () => {
   sidebarpop()
   functions.mediadataBinding()
+  up_btn()
 })
 
 function sidebarpop(){
@@ -436,4 +437,22 @@ function themeColor(project){
 
   project.style.setProperty('--theme_color', randomColors)
   previousColor = randomColors
+}
+function up_btn(){
+  const btn_up = document.querySelector('#btn-up')
+  btn_up.addEventListener('click', () =>{
+    window.scrollTo({top:0 , behavior:'smooth' })
+  })
+
+  window.addEventListener('scroll',() =>{
+    const scrollY = window.scrollY
+    if (scrollY == 0){
+      btn_up.style.opacity = '0'
+      btn_up.style.pointerEvents = 'none'
+    }else{
+      btn_up.style.opacity = '1'
+      btn_up.style.pointerEvents = 'auto'
+    }
+
+  })
 }

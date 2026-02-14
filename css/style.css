@@ -41,12 +41,15 @@ body{
   justify-content: center;
   align-items: center;
   z-index: 100;
+  opacity: 0;
 }
 .btn_up i{
   font-size: 1.3rem;
 }
 .btn_up:hover{
   cursor: pointer;
+  scale: 0.9;
+  transition: scale 0.4s ease;
 }
 .head {
   padding: 0.3rem;

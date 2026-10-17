@@ -4,7 +4,7 @@
 
 ## 🕶 Preview
 
-![Shri Basweshwar Sevabhavi Sanstha Preview](preview.png)
+![Shri Basweshwar Sevabhavi Sanstha Preview](NGO_websitePreview.jpg)
 
 ## 📝 Overview
 
